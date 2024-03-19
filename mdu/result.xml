@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+<item><name>Економіко-правовий факультет</name><url>https://mu.edu.ua/uk/faculties/ekonomiko-pravoviy-fakultet</url></item>
+<item><name>Історичний факультет</name><url>https://mu.edu.ua/uk/faculties/istorichniy-fakultet</url></item>
+<item><name>Факультет філології та масових комунікацій</name><url>https://mu.edu.ua/uk/faculties/fakultet-filologiji-ta-masovih-komunikaciy</url></item>
+<item><name>Факультет іноземних мов</name><url>https://mu.edu.ua/uk/faculties/fakultet-inozemnih-mov</url></item>
+<item><name>Психолого-педагогічний факультет</name><url>https://mu.edu.ua/uk/faculties/psihologo-pedagogichniy-fakultet</url></item>
+<item><name>Навчально-науковий інститут управління</name><url>https://mu.edu.ua/uk/faculties/navchalno-naukoviy-institut-upravlinnya</url></item>
+<item><name>Кафедра української філології</name><url>https://mu.edu.ua/uk/departments/kafedra-ukrajinskoji-filologiji</url><faculty>Факультет філології та масових комунікацій</faculty></item>
+<item><name>Кафедра соціальних комунікацій</name><url>https://mu.edu.ua/uk/departments/kafedra-socialnih-komunikaciy</url><faculty>Факультет філології та масових комунікацій</faculty></item>
+<item><name>Кафедра інформаційної діяльності</name><url>https://mu.edu.ua/uk/departments/kafedra-informaciynoji-diyalnosti</url><faculty>Факультет філології та масових комунікацій</faculty></item>
+<item><name>Кафедра політології та міжнародних відносин</name><url>https://mu.edu.ua/uk/departments/kafedra-politologiji-ta-mizhnarodnih-vidnosin</url><faculty>Історичний факультет</faculty></item>
+<item><name>Кафедра історії та археології</name><url>https://mu.edu.ua/uk/departments/kafedra-istoriji-ta-arheologiji</url><faculty>Історичний факультет</faculty></item>
+<item><name>Кафедра культурології</name><url>https://mu.edu.ua/uk/departments/kafedra-kulturologiji</url><faculty>Історичний факультет</faculty></item>
+<item><name>Кафедра філософії та соціології</name><url>https://mu.edu.ua/uk/departments/kafedra-filosofiji-ta-sociologiji</url><faculty>Історичний факультет</faculty></item>
+<item><name>Кафедра маркетингу та туризму</name><url>https://mu.edu.ua/uk/departments/tourism</url><faculty>Навчально-науковий інститут управління</faculty></item>
+<item><name>Кафедра менеджменту та фінансів</name><url>https://mu.edu.ua/uk/departments/kafedra-menedzhmentu-ta-finansiv</url><faculty>Навчально-науковий інститут управління</faculty></item>
+<item><name>Кафедра публічного управління та адміністрування</name><url>https://mu.edu.ua/uk/departments/kafedra-publichnogo-upravlinnya-ta-administruvannya</url><faculty>Навчально-науковий інститут управління</faculty></item>
+<item><name>Кафедра педагогіки та освіти</name><url>https://mu.edu.ua/uk/departments/kafedra-pedagogiki-ta-osviti</url><faculty>Психолого-педагогічний факультет</faculty></item>
+<item><name>Кафедра дошкільної освіти</name><url>https://mu.edu.ua/uk/departments/kafedra-doshkilnoji-osviti</url><faculty>Психолого-педагогічний факультет</faculty></item>
+<item><name>Кафедра практичної психології</name><url>https://mu.edu.ua/uk/departments/kafedra-praktichnoji-psihologiji</url><faculty>Психолого-педагогічний факультет</faculty></item>
+<item><teacher>Тетяна Іванова</teacher><department>Кафедра соціальних комунікацій</department></item>
+<item><teacher>В'ячеслав Кудлай</teacher><department>Кафедра інформаційної діяльності</department></item>
+<item><teacher>Світлана Безчотнікова</teacher><department>Кафедра соціальних комунікацій</department></item>
+<item><teacher>Максим Фоломєєв</teacher><department>Кафедра соціальних комунікацій</department></item>
+<item><teacher>Вадим Герасимович</teacher><department>Кафедра соціальних комунікацій</department></item>
+<item><teacher>Оксана Єфремова</teacher><department>Кафедра соціальних комунікацій</department></item>
+<item><teacher>Юлія Рицик</teacher><department>Кафедра соціальних комунікацій</department></item>
+<item><teacher>Єлизавета Тарапата</teacher><department>Кафедра соціальних комунікацій</department></item>
+<item><teacher>Оксана Федотова</teacher><department>Кафедра інформаційної діяльності</department></item>
+<item><teacher>Марина Белла</teacher><department>Кафедра інформаційної діяльності</department></item>
+<item><teacher>Ірина Петрова</teacher><department>Кафедра інформаційної діяльності</department></item>
+<item><name>Кафедра англійської філології</name><url>https://mu.edu.ua/uk/departments/kafedra-angliyskoji-filologiji</url><faculty>Факультет іноземних мов</faculty></item>
+<item><teacher>Олена Євмененко</teacher><department>Кафедра української філології</department></item>
+<item><name>Кафедра економіки та міжнародних економічних відносин</name><url>https://mu.edu.ua/uk/departments/kafedra-ekonomiki-ta-mizhnarodnih-ekonomichnih-vidnosin</url><faculty>Економіко-правовий факультет</faculty></item>
+<item><name>Кафедра романо-германської філології</name><url>https://mu.edu.ua/uk/departments/kafedra-romano-germanskoji-filologiji</url><faculty>Факультет іноземних мов</faculty></item>
+<item><name>Кафедра прикладної філології</name><url>https://mu.edu.ua/uk/departments/kafedra-prikladnoji-filologiji</url><faculty>Факультет іноземних мов</faculty></item>
+<item><name>Кафедра грецької філології</name><url>https://mu.edu.ua/uk/departments/kafedra-greckoji-filologiji</url><faculty>Факультет іноземних мов</faculty></item>
+<item><teacher>Ірина Мельничук</teacher><department>Кафедра української філології</department></item>
+<item><teacher>Віктор Дворянкін</teacher><department>Кафедра української філології</department></item>
+<item><teacher>Марія Коновалова</teacher><department>Кафедра української філології</department></item>
+<item><teacher>Марія Нікольченко</teacher><department>Кафедра української філології</department></item>
+<item><name>Кафедра раціонального природокористування та охорони навколишнього середовища</name><url>https://mu.edu.ua/uk/departments/kafedra-racionalnogo-prirodokoristuvannya-ta-ohoroni-navkolishnogo-seredovishcha</url><faculty>Економіко-правовий факультет</faculty></item>
+<item><name>Кафедра права</name><url>https://mu.edu.ua/uk/departments/kafedra-prava</url><faculty>Економіко-правовий факультет</faculty></item>
+<item><name>Кафедра системного аналізу та інформаційних технологій</name><url>https://mu.edu.ua/uk/departments/kafedra-sistemnogo-analizu-ta-informaciynih-tehnologiy</url><faculty>Економіко-правовий факультет</faculty></item>
+<item><name>Кафедра економіки праці</name><url>https://mu.edu.ua/uk/departments/kafedra-ekonomiki-praci</url><faculty>Економіко-правовий факультет</faculty></item>
+<item><teacher>Тетяна Іванець</teacher><department>Кафедра філософії та соціології</department></item>
+<item><teacher>Яна Зоська</teacher><department>Кафедра філософії та соціології</department></item>
+<item><teacher>Наталя Романцова</teacher><department>Кафедра філософії та соціології</department></item>
+<item><teacher>Ігор Гудима</teacher><department>Кафедра філософії та соціології</department></item>
+<item><teacher>Альона Стадник</teacher><department>Кафедра філософії та соціології</department></item>
+<item><teacher>Олександр Зубченко</teacher><department>Кафедра філософії та соціології</department></item>
+<item><teacher>Максим Булик</teacher><department>Кафедра політології та міжнародних відносин</department></item>
+<item><teacher>Микола Трофименко</teacher><department>Кафедра політології та міжнародних відносин</department></item>
+<item><teacher>Юлія Константинова</teacher><department>Кафедра політології та міжнародних відносин</department></item>
+<item><teacher>Вікторія Лисак</teacher><department>Кафедра політології та міжнародних відносин</department></item>
+<item><teacher>Марина Горбашевська</teacher><department>Кафедра менеджменту та фінансів</department></item>
+<item><teacher>Юлія Сабадаш</teacher><department>Кафедра культурології</department></item>
+<item><teacher>Володимир Романцов</teacher><department>Кафедра історії та археології</department></item>
+<item><teacher>Анжеліка Балабаниць</teacher><department>Кафедра маркетингу та туризму</department></item>
+<item><teacher>Ірина Деснова</teacher><department>Кафедра практичної психології</department></item>
+<item><teacher>Наталія Пашина</teacher><department>Кафедра політології та міжнародних відносин</department></item>
+<item><teacher>Ірина Грідіна</teacher><department>Кафедра політології та міжнародних відносин</department></item>
+<item><teacher>Костянтин Балабанов</teacher><department>Кафедра політології та міжнародних відносин</department></item>
+<item><teacher>Анастасія Трофименко</teacher><department>Кафедра політології та міжнародних відносин</department></item>
+<item><teacher>Сергій Пахоменко</teacher><department>Кафедра політології та міжнародних відносин</department></item>
+<item><teacher>Володимир Омельченко</teacher><department>Кафедра менеджменту та фінансів</department></item>
+<item><teacher>Лариса Шаульська</teacher><department>Кафедра менеджменту та фінансів</department></item>
+<item><teacher>Вікторія Коверза</teacher><department>Кафедра менеджменту та фінансів</department></item>
+<item><teacher>Людмила Кислова</teacher><department>Кафедра менеджменту та фінансів</department></item>
+<item><teacher>Вікторія Мацука</teacher><department>Кафедра менеджменту та фінансів</department></item>
+<item><teacher>Олена Суздалєва</teacher><department>Кафедра менеджменту та фінансів</department></item>
+<item><teacher>Олена Ткаченко</teacher><department>Кафедра менеджменту та фінансів</department></item>
+<item><teacher>Юзеф Нікольченко</teacher><department>Кафедра культурології</department></item>
+<item><teacher>Ольга Демідко</teacher><department>Кафедра культурології</department></item>
+<item><teacher>Ірина Сікорська</teacher><department>Кафедра культурології</department></item>
+<item><teacher>Степан Янковський</teacher><department>Кафедра культурології</department></item>
+<item><teacher>Світлана Арабаджи</teacher><department>Кафедра історії та археології</department></item>
+<item><teacher>Віра Волониць</teacher><department>Кафедра історії та археології</department></item>
+<item><teacher>В'ячеслав Забавін</teacher><department>Кафедра історії та археології</department></item>
+<item><teacher>Валентина Токарева</teacher><department>Кафедра маркетингу та туризму</department></item>
+<item><teacher>Андрій Стойка</teacher><department>Кафедра маркетингу та туризму</department></item>
+<item><teacher>Олена Чуприна</teacher><department>Кафедра маркетингу та туризму</department></item>
+<item><teacher>Інна Аракелова</teacher><department>Кафедра маркетингу та туризму</department></item>
+<item><teacher>Олена Рібейро Рамос</teacher><department>Кафедра маркетингу та туризму</department></item>
+<item><teacher>Катерина Горюнова</teacher><department>Кафедра маркетингу та туризму</department></item>
+<item><teacher>Олена Блашкова</teacher><department>Кафедра практичної психології</department></item>
+<item><teacher>Ольга Пучина</teacher><department>Кафедра практичної психології</department></item>
+<item><teacher>Василь Шусть</teacher><department>Кафедра практичної психології</department></item>
+<item><teacher>Любов Шевченко</teacher><department>Кафедра менеджменту та фінансів</department></item>
+<item><teacher>Марина Шендригоренко</teacher><department>Кафедра менеджменту та фінансів</department></item>
+<item><teacher>Вадим Коробка</teacher><department>Кафедра історії та археології</department></item>
+<item><teacher>Юлія Коробка</teacher><department>Кафедра історії та археології</department></item>
+<item><teacher>Світлана Новікова</teacher><department>Кафедра історії та археології</department></item>
+<item><teacher>Наталя Шипік</teacher><department>Кафедра історії та археології</department></item>
+<item><teacher>Олена Стуліка</teacher><department>Кафедра практичної психології</department></item>
+<item><teacher>Анастасія Вагабова</teacher><department>Кафедра практичної психології</department></item>
+<item><teacher>Ольга Ребро</teacher><department>Кафедра практичної психології</department></item>
+<item><teacher>Юлія Демидова</teacher><department>Кафедра дошкільної освіти</department></item>
+<item><teacher>Оксана Голюк</teacher><department>Кафедра педагогіки та освіти</department></item>
+<item><teacher>Ольга Фунтікова</teacher><department>Кафедра дошкільної освіти</department></item>
+<item><teacher>Катерина Крутій</teacher><department>Кафедра дошкільної освіти</department></item>
+<item><teacher>Світлана Макаренко</teacher><department>Кафедра дошкільної освіти</department></item>
+<item><teacher>Анна Чечель</teacher><department>Кафедра публічного управління та адміністрування</department></item>
+<item><teacher>Леніна Задорожна-Княгницька</teacher><department>Кафедра педагогіки та освіти</department></item>
+<item><teacher>Наталя Воєвутко</teacher><department>Кафедра педагогіки та освіти</department></item>
+<item><teacher>Ольга Грошовенко</teacher><department>Кафедра педагогіки та освіти</department></item>
+<item><teacher>Вячеслав Мірошніченко</teacher><department>Кафедра педагогіки та освіти</department></item>
+<item><teacher>Марина Нетреба</teacher><department>Кафедра педагогіки та освіти</department></item>
+<item><teacher>Денис Тарасенко</teacher><department>Кафедра публічного управління та адміністрування</department></item>
+<item><teacher>Олена Бражко</teacher><department>Кафедра публічного управління та адміністрування</department></item>
+<item><teacher>Ганна Решетова</teacher><department>Кафедра публічного управління та адміністрування</department></item>
+<item><teacher>Світлана Верительник</teacher><department>Кафедра публічного управління та адміністрування</department></item>
+<item><teacher>Остап Бодик</teacher><department>Кафедра англійської філології</department></item>
+<item><teacher>Ганна Трифонова</teacher><department>Кафедра романо-германської філології</department></item>
+<item><teacher>Лариса Присяжнюк</teacher><department>Кафедра педагогіки та освіти</department></item>
+<item><teacher>Віктор Рябченко</teacher><department>Кафедра педагогіки та освіти</department></item>
+<item><teacher>Євген Павленко</teacher><department>Кафедра педагогіки та освіти</department></item>
+<item><teacher>Іван Пасічник</teacher><department>Кафедра педагогіки та освіти</department></item>
+<item><teacher>Ірина Хаджинова</teacher><department>Кафедра педагогіки та освіти</department></item>
+<item><teacher>Марина Зелінська</teacher><department>Кафедра публічного управління та адміністрування</department></item>
+<item><teacher>Аліна Надежденко</teacher><department>Кафедра публічного управління та адміністрування</department></item>
+<item><teacher>Олена Павленко</teacher><department>Кафедра англійської філології</department></item>
+<item><teacher>Наталія Городнюк</teacher><department>Кафедра англійської філології</department></item>
+<item><teacher>Ольга Моргунова</teacher><department>Кафедра англійської філології</department></item>
+<item><teacher>Тетяна Розумна</teacher><department>Кафедра англійської філології</department></item>
+<item><teacher>Максим Стьопін</teacher><department>Кафедра англійської філології</department></item>
+<item><teacher>Юлія Золотько</teacher><department>Кафедра англійської філології</department></item>
+<item><teacher>Наталія Пирлік</teacher><department>Кафедра романо-германської філології</department></item>
+<item><teacher>Наталя Мараховська</teacher><department>Кафедра романо-германської філології</department></item>
+<item><teacher>Віктор Ніколаєнко</teacher><department>Кафедра романо-германської філології</department></item>
+<item><teacher>Таїсія Поклад</teacher><department>Кафедра романо-германської філології</department></item>
+<item><teacher>Вікторія Григор'єва</teacher><department>Кафедра права</department></item>
+<item><teacher>Ольга Захарова</teacher><department>Кафедра економіки та міжнародних економічних відносин</department></item>
+<item><teacher>Олена Педченко</teacher><department>Кафедра прикладної філології</department></item>
+<item><teacher>Христина Мітюшкіна</teacher><department>Кафедра раціонального природокористування та охорони навколишнього середовища</department></item>
+<item><teacher>Вячеслав Волік</teacher><department>Кафедра права</department></item>
+<item><teacher>Борис Свірський</teacher><department>Кафедра права</department></item>
+<item><teacher>Юлія Камардіна</teacher><department>Кафедра права</department></item>
+<item><teacher>Любов Князькова</teacher><department>Кафедра права</department></item>
+<item><teacher>Олександр Кулешов</teacher><department>Кафедра права</department></item>
+<item><teacher>Дар’я Лісова</teacher><department>Кафедра права</department></item>
+<item><teacher>Олена Булатова</teacher><department>Кафедра економіки та міжнародних економічних відносин</department></item>
+<item><teacher>Тетяна Марена</teacher><department>Кафедра економіки та міжнародних економічних відносин</department></item>
+<item><teacher>Роман Толпежніков</teacher><department>Кафедра економіки та міжнародних економічних відносин</department></item>
+<item><teacher>Наталя Балабанова</teacher><department>Кафедра економіки та міжнародних економічних відносин</department></item>
+<item><teacher>Ольга Беззубченко</teacher><department>Кафедра економіки та міжнародних економічних відносин</department></item>
+<item><teacher>Олексій Сухомлинов</teacher><department>Кафедра прикладної філології</department></item>
+<item><teacher>Неллі Гайдук</teacher><department>Кафедра прикладної філології</department></item>
+<item><teacher>Вікторія Канна</teacher><department>Кафедра прикладної філології</department></item>
+<item><teacher>Олена Пефтієва</teacher><department>Кафедра прикладної філології</department></item>
+<item><teacher>Михайло Тарапатов</teacher><department>Кафедра прикладної філології</department></item>
+<item><teacher>Яна Сичугова</teacher><department>Кафедра прикладної філології</department></item>
+<item><teacher>Вікторія Іванова</teacher><department>Кафедра раціонального природокористування та охорони навколишнього середовища</department></item>
+<item><teacher>Олена Пастернак</teacher><department>Кафедра раціонального природокористування та охорони навколишнього середовища</department></item>
+<item><teacher>Ірина Петрик</teacher><department>Кафедра раціонального природокористування та охорони навколишнього середовища</department></item>
+<item><teacher>Анна Політова</teacher><department>Кафедра права</department></item>
+<item><teacher>Діана Шебаніц</teacher><department>Кафедра права</department></item>
+<item><teacher>Галина Тихомирова</teacher><department>Кафедра права</department></item>
+<item><teacher>Ганна Омельченко</teacher><department>Кафедра економіки та міжнародних економічних відносин</department></item>
+<item><teacher>Володимир Панченко</teacher><department>Кафедра економіки та міжнародних економічних відносин</department></item>
+<item><teacher>Вікторія Зеленська</teacher><department>Кафедра раціонального природокористування та охорони навколишнього середовища</department></item>
+<item><teacher>Юлія Лабецька</teacher><department>Кафедра грецької філології</department></item>
+<item><teacher>Ганна Мартинюк</teacher><department>Кафедра системного аналізу та інформаційних технологій</department></item>
+<item><teacher>Світлана Калініна</teacher><department>Кафедра економіки праці</department></item>
+<item><teacher>Євген Черних</teacher><department>Кафедра права</department></item>
+<item><teacher>Юлія Ковейно</teacher><department>Кафедра права</department></item>
+<item><teacher>Марія Пожидаєва</teacher><department>Кафедра права</department></item>
+<item><teacher>Олександр Барановський</teacher><department>Кафедра права</department></item>
+<item><teacher>Елла Кулешова</teacher><department>Кафедра права</department></item>
+<item><teacher>Оксана Новицька</teacher><department>Кафедра грецької філології</department></item>
+<item><teacher>Ольга Гаргаєва</teacher><department>Кафедра грецької філології</department></item>
+<item><teacher>Олексій Альохін</teacher><department>Кафедра системного аналізу та інформаційних технологій</department></item>
+<item><teacher>Андрій Міщенко</teacher><department>Кафедра системного аналізу та інформаційних технологій</department></item>
+<item><teacher>Юрій Дрейс</teacher><department>Кафедра системного аналізу та інформаційних технологій</department></item>
+<item><teacher>Надія Марченко</teacher><department>Кафедра системного аналізу та інформаційних технологій</department></item>
+<item><teacher>Марія Мнацаканян</teacher><department>Кафедра системного аналізу та інформаційних технологій</department></item>
+<item><teacher>Світлана Ланська</teacher><department>Кафедра економіки праці</department></item>
+<item><teacher>Валерія Подунай</teacher><department>Кафедра економіки праці</department></item>
+<item><teacher>Клавдія Тахтарова</teacher><department>Кафедра економіки праці</department></item>
+<item><teacher>Анжеліка Стахова</teacher><department>Кафедра системного аналізу та інформаційних технологій</department></item>
+<item><teacher>Андрій Охріменко</teacher><department>Кафедра системного аналізу та інформаційних технологій</department></item>
+<item><teacher>Ольга Лелюк</teacher><department>Кафедра економіки праці</department></item>
+<item><teacher>Ольга Савченко</teacher><department>Кафедра системного аналізу та інформаційних технологій</department></item>
+<item><teacher>Владислав Дудник</teacher><department>Кафедра системного аналізу та інформаційних технологій</department></item>
+</items>
