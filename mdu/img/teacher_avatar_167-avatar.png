@@ -1,0 +1,2175 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mu.edu.ua - mu.edu.ua</title>
+<meta name="csrf-token" content="sGRtaY9NJQxAl9rjFWLwcD5Eho2QfeaRiSWAsEO8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://mu.edu.ua/favicon/apple-touch-icon.png?v=0.0.3">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://mu.edu.ua/favicon/favicon-32x32.png?v=0.0.3">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://mu.edu.ua/favicon/favicon-16x16.png?v=0.0.3">
+    <link rel="manifest" href="https://mu.edu.ua/favicon/site.webmanifest?v=0.0.3">
+    <link rel="mask-icon" href="https://mu.edu.ua/favicon/safari-pinned-tab.svg" color="#03257E">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}</style>
+    <link rel="preload" as="style" href="https://mu.edu.ua/build/assets/app-5ccd476b.css" /><link rel="modulepreload" href="https://mu.edu.ua/build/assets/app-2753b6e4.js" /><link rel="stylesheet" href="https://mu.edu.ua/build/assets/app-5ccd476b.css" data-navigate-track="reload" /><script type="module" src="https://mu.edu.ua/build/assets/app-2753b6e4.js" data-navigate-track="reload"></script>
+            <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JGH2D6GN58"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'G-JGH2D6GN58');
+        </script>
+    </head>
+<body class="flex pt-14 lg:pt-0 lg:pl-[255px]">
+    <aside wire:snapshot="{&quot;data&quot;:[],&quot;memo&quot;:{&quot;id&quot;:&quot;2cCl7s1wMUAfYVXCplLN&quot;,&quot;name&quot;:&quot;sidebar&quot;,&quot;path&quot;:&quot;departments\/kafedra-ekonomiki-praci&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:{&quot;lw-3055735164-0&quot;:[&quot;select&quot;,&quot;vwYgB3f0oi5IOXnfgNYK&quot;]},&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;uk&quot;},&quot;checksum&quot;:&quot;6b81925bbb74545ec9fba146126671a3dd483662916b029a87ec8b67fff235cd&quot;}" wire:effects="[]" wire:id="2cCl7s1wMUAfYVXCplLN"
+    class="fixed top-0 left-0 z-50 lg:bg-transparent w-screen lg:w-[255px] max-h-[100svh]"
+    x-data="{
+        windowWidth: (window.innerWidth > 0) ? window.innerWidth : screen.width,
+        isOpen: false,
+        openedSubmenuId: null,
+
+        get getIsOpen() {
+            return this.isOpen || this.windowWidth >= 1024
+        },
+        mouseenterHandler() {
+            if (this.windowWidth >= 1024) {
+                document.getElementById('site-content').classList.add('blurred')
+            }
+        },
+        mouseleaveHandler() {
+            if (this.windowWidth >= 1024) {
+                document.getElementById('site-content').classList.remove('blurred')
+            }
+        },
+        toggleMenuHandler() {
+            if (!this.isOpen) {
+                document.body.classList.add('overflow-hidden')
+            } else {
+                document.body.classList.remove('overflow-hidden')
+            }
+
+            this.isOpen = !this.isOpen
+        },
+        openSubmenuHandler(id) {
+            this.openedSubmenuId = id;
+        },
+
+        init() {
+            window.addEventListener('resize', () => {
+                const newWindowWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width
+
+                if (newWindowWidth < this.windowWidth) {
+                    this.isOpen = false
+                }
+
+                this.windowWidth = newWindowWidth
+            })
+        }
+    }"
+    x-cloak
+>
+    <div class="container-fluid bg-white shadow lg:hidden flex justify-between py-3 absolute z-10 top-0 left-0 w-full">
+        <a class="w-9 h-9 flex items-center justify-center" href="https://mu.edu.ua">
+            <img src="https://mu.edu.ua/images/logo-small-blue.svg" alt="Маріупольський універсітет лого"
+                 title="Маріупольський універсітет">
+        </a>
+        <button
+            type="button"
+            class="text-blue-900 w-9 h-9 flex justify-end items-center"
+            @click="toggleMenuHandler()"
+        >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 6H20M4 12H20M4 18H20" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+    <div
+        class="relative z-20 lg:static bg-gray-50 lg:bg-gray-100 overflow-auto lg:overflow-visible h-[100svh] flex-none lg:pt-6 lg:flex flex-col"
+        :class="{hidden: !getIsOpen, flex: getIsOpen}"
+        x-show="getIsOpen"
+        x-transition.opacity.duration.300ms
+    >
+        <button
+            type="button"
+            class="absolute top-3 right-5 lg:hidden text-blue-900 w-9 h-9 flex justify-end items-center z-[1]"
+            @click="toggleMenuHandler()"
+        >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 18L18 6M6 6L18 18" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <a class="hidden lg:block w-[120px] lg:w-[140px] mx-auto" href="https://mu.edu.ua">
+            <!--[if BLOCK]><![endif]-->                <img src="https://mu.edu.ua/images/Logo.svg" alt="Logo">
+            <!--[if ENDBLOCK]><![endif]-->
+        </a>
+
+        <nav class="py-8 lg:py-6 flex-1 flex flex-col lg:justify-center font-medium bg-white lg:bg-transparent">
+            <div
+                class="bg-white/70 fixed w-screen h-[100svh] z-[1]"
+                x-show="windowWidth < 1024 && openedSubmenuId"
+                @click="openSubmenuHandler(null)"
+            ></div>
+            <ul class="flex flex-col items-start lg:items-stretch w-full px-5 md:px-6 lg:px-0 md:max-w-md lg:max-w-full">
+                <!--[if BLOCK]><![endif]-->                    <li
+                        class="relative lg:px-6 group py-0.5"
+                        @mouseenter="mouseenterHandler()"
+                        @mouseleave="mouseleaveHandler()"
+                    >
+                        <!--[if BLOCK]><![endif]-->                            <span
+                                class="text-gray-600 !leading-[1.2] block w-full cursor-pointer text-xl lg:text-base lg:text-center py-2 rounded-md transition-all lg:group-hover:bg-white lg:group-hover:text-gray-900"
+                                @click="openSubmenuHandler(1)"
+                            >
+                                вступ
+                            </span>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]-->                            <svg
+                                class="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 -z-10 transition-all group-hover:translate-x-full"
+                                xmlns="http://www.w3.org/2000/svg" width="19" height="23" viewBox="0 0 19 23"
+                                fill="none">
+                                <path d="M0 11.5L18.75 0.674683V22.3253L0 11.5Z" fill="#03257E"/>
+                            </svg>
+
+                            <ul
+                                class="flex flex-col lg:justify-center p-6 fixed z-10 top-0 left-full lg:-left-12 lg:-z-10 w-[312px] lg:w-[300px] h-[100svh] overflow-auto lg:rounded-r-2xl bg-gray-50 lg:bg-blue-900 lg:text-gray-100 transition-all lg:group-hover:left-[273px]"
+                                :class="{
+                                    '-translate-x-[312px] shadow-2xl': windowWidth < 1024 && openedSubmenuId === 1
+                                }"
+                            >
+                                <li
+                                    class="lg:hidden flex items-center gap-3 mb-6 font-semibold text-xl"
+                                    @click="openSubmenuHandler(null)"
+                                >
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 19L3 12M3 12L10 5M3 12L21 12" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>
+                                        вступ
+                                    </span>
+                                </li>
+                                <!--[if BLOCK]><![endif]-->                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/educational-programs"
+                                                                                           >
+                                                освітні програми
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/den-vidkritih-dverey"
+                                                                                           >
+                                                день відкритих дверей
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/vstup-2024"
+                                                                                           >
+                                                вступ-2024
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/donbass-ukraine"
+                                                                                           >
+                                                вступ з ТОТ
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/vstup_zsu"
+                                                                                           >
+                                                вступ для ЗСУ
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/priymalna-komisiya"
+                                                                                           >
+                                                приймальна комісія
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/vartist-navchannya"
+                                                                                           >
+                                                вартість навчання
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/bachelors-degree"
+                                                                                           >
+                                                бакалаврат
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/magistracy"
+                                                                                           >
+                                                магістратура
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/aspirantura"
+                                                                                           >
+                                                аспірантура
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/doctorate"
+                                                                                           >
+                                                докторантура
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/otrimannya-drugoji-vishchoji-osviti"
+                                                                                           >
+                                                друга освіта
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/perevedennya-ta-ponovlennya"
+                                                                                           >
+                                                переведення, поновлення, паралельне навчання
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/umovi-vstupu-inozemnih-gromadyan-u-2023-2024-navchalnomu-roci"
+                                                                                           >
+                                                вступ іноземців
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </ul>
+
+                        <!--[if ENDBLOCK]><![endif]-->
+                    </li>
+                                    <li
+                        class="relative lg:px-6 group py-0.5"
+                        @mouseenter="mouseenterHandler()"
+                        @mouseleave="mouseleaveHandler()"
+                    >
+                        <!--[if BLOCK]><![endif]-->                            <span
+                                class="text-gray-600 !leading-[1.2] block w-full cursor-pointer text-xl lg:text-base lg:text-center py-2 rounded-md transition-all lg:group-hover:bg-white lg:group-hover:text-gray-900"
+                                @click="openSubmenuHandler(110)"
+                            >
+                                навчання
+                            </span>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]-->                            <svg
+                                class="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 -z-10 transition-all group-hover:translate-x-full"
+                                xmlns="http://www.w3.org/2000/svg" width="19" height="23" viewBox="0 0 19 23"
+                                fill="none">
+                                <path d="M0 11.5L18.75 0.674683V22.3253L0 11.5Z" fill="#03257E"/>
+                            </svg>
+
+                            <ul
+                                class="flex flex-col lg:justify-center p-6 fixed z-10 top-0 left-full lg:-left-12 lg:-z-10 w-[312px] lg:w-[300px] h-[100svh] overflow-auto lg:rounded-r-2xl bg-gray-50 lg:bg-blue-900 lg:text-gray-100 transition-all lg:group-hover:left-[273px]"
+                                :class="{
+                                    '-translate-x-[312px] shadow-2xl': windowWidth < 1024 && openedSubmenuId === 110
+                                }"
+                            >
+                                <li
+                                    class="lg:hidden flex items-center gap-3 mb-6 font-semibold text-xl"
+                                    @click="openSubmenuHandler(null)"
+                                >
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 19L3 12M3 12L10 5M3 12L21 12" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>
+                                        навчання
+                                    </span>
+                                </li>
+                                <!--[if BLOCK]><![endif]-->                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://moodle.mu.edu.ua/"
+                                                target="_blank"                                             >
+                                                навчальний портал
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/individulna-trayektoriya-navchannya"
+                                                                                           >
+                                                індивідуальна траєкторія навчання
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/grafik-navchalnogo-procesu"
+                                                                                           >
+                                                графік навчального процесу
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/vibirkovi_disciplini"
+                                                                                           >
+                                                вибіркові дисципліни
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/practice"
+                                                                                           >
+                                                практика і працевлаштування
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/dualna_osvita"
+                                                                                           >
+                                                дуальна освіта
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/rejting_studentiv"
+                                                                                           >
+                                                рейтинг студентів
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/korysni_dok"
+                                                                                           >
+                                                корисні документи
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/oplata"
+                                                                                           >
+                                                оплата навчання
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/vidnovlennya-diplomu"
+                                                                                           >
+                                                відновлення диплому
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </ul>
+
+                        <!--[if ENDBLOCK]><![endif]-->
+                    </li>
+                                    <li
+                        class="relative lg:px-6 group py-0.5"
+                        @mouseenter="mouseenterHandler()"
+                        @mouseleave="mouseleaveHandler()"
+                    >
+                        <!--[if BLOCK]><![endif]-->                            <span
+                                class="text-gray-600 !leading-[1.2] block w-full cursor-pointer text-xl lg:text-base lg:text-center py-2 rounded-md transition-all lg:group-hover:bg-white lg:group-hover:text-gray-900"
+                                @click="openSubmenuHandler(26)"
+                            >
+                                наука
+                            </span>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]-->                            <svg
+                                class="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 -z-10 transition-all group-hover:translate-x-full"
+                                xmlns="http://www.w3.org/2000/svg" width="19" height="23" viewBox="0 0 19 23"
+                                fill="none">
+                                <path d="M0 11.5L18.75 0.674683V22.3253L0 11.5Z" fill="#03257E"/>
+                            </svg>
+
+                            <ul
+                                class="flex flex-col lg:justify-center p-6 fixed z-10 top-0 left-full lg:-left-12 lg:-z-10 w-[312px] lg:w-[300px] h-[100svh] overflow-auto lg:rounded-r-2xl bg-gray-50 lg:bg-blue-900 lg:text-gray-100 transition-all lg:group-hover:left-[273px]"
+                                :class="{
+                                    '-translate-x-[312px] shadow-2xl': windowWidth < 1024 && openedSubmenuId === 26
+                                }"
+                            >
+                                <li
+                                    class="lg:hidden flex items-center gap-3 mb-6 font-semibold text-xl"
+                                    @click="openSubmenuHandler(null)"
+                                >
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 19L3 12M3 12L10 5M3 12L21 12" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>
+                                        наука
+                                    </span>
+                                </li>
+                                <!--[if BLOCK]><![endif]-->                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/naukovi-doslidzhennya"
+                                                                                           >
+                                                наукові дослідження
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/naukovci-konferenciji"
+                                                                                           >
+                                                конференції
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/postgraduate"
+                                                                                           >
+                                                аспірантура
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/specializovani-vcheni-radi"
+                                                                                           >
+                                                спеціалізовані вчені ради
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/doctorate"
+                                                                                           >
+                                                докторантура
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/rada-molodih-vchenih-mdu"
+                                                                                           >
+                                                молодіжна наука
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/library"
+                                                                                           >
+                                                наукова бібліотека
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://e-library.mu.edu.ua"
+                                                target="_blank"                                             >
+                                                е-каталог
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://repository.mu.edu.ua"
+                                                target="_blank"                                             >
+                                                е-репозитарій
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/visnik-mdu"
+                                                                                           >
+                                                вісник МДУ
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </ul>
+
+                        <!--[if ENDBLOCK]><![endif]-->
+                    </li>
+                                    <li
+                        class="relative lg:px-6 group py-0.5"
+                        @mouseenter="mouseenterHandler()"
+                        @mouseleave="mouseleaveHandler()"
+                    >
+                        <!--[if BLOCK]><![endif]-->                            <span
+                                class="text-gray-600 !leading-[1.2] block w-full cursor-pointer text-xl lg:text-base lg:text-center py-2 rounded-md transition-all lg:group-hover:bg-white lg:group-hover:text-gray-900"
+                                @click="openSubmenuHandler(142)"
+                            >
+                                громада
+                            </span>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]-->                            <svg
+                                class="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 -z-10 transition-all group-hover:translate-x-full"
+                                xmlns="http://www.w3.org/2000/svg" width="19" height="23" viewBox="0 0 19 23"
+                                fill="none">
+                                <path d="M0 11.5L18.75 0.674683V22.3253L0 11.5Z" fill="#03257E"/>
+                            </svg>
+
+                            <ul
+                                class="flex flex-col lg:justify-center p-6 fixed z-10 top-0 left-full lg:-left-12 lg:-z-10 w-[312px] lg:w-[300px] h-[100svh] overflow-auto lg:rounded-r-2xl bg-gray-50 lg:bg-blue-900 lg:text-gray-100 transition-all lg:group-hover:left-[273px]"
+                                :class="{
+                                    '-translate-x-[312px] shadow-2xl': windowWidth < 1024 && openedSubmenuId === 142
+                                }"
+                            >
+                                <li
+                                    class="lg:hidden flex items-center gap-3 mb-6 font-semibold text-xl"
+                                    @click="openSubmenuHandler(null)"
+                                >
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 19L3 12M3 12L10 5M3 12L21 12" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>
+                                        громада
+                                    </span>
+                                </li>
+                                <!--[if BLOCK]><![endif]-->                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/centr-rozvitku-lyudskogo-potencialu"
+                                                                                           >
+                                                центр розвитку людського потенціалу
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/centr-viznannya-kvalifikaciy"
+                                                                                           >
+                                                центр визнання кваліфікацій
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/civic_center"
+                                                                                           >
+                                                Civic Center
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/asociaciya-vipusknikiv-mdu"
+                                                                                           >
+                                                асоціація випускників
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/gumanitarniy-shtab"
+                                                                                           >
+                                                гуманітарний штаб
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/rodina-volonteriv-mdu"
+                                                                                           >
+                                                родина волонтерів МДУ
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/psihologichna-pidtrimka"
+                                                                                           >
+                                                психологічна підтримка
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/yuridichna-klinika"
+                                                                                           >
+                                                юридична клініка
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://eduspace.mu.edu.ua"
+                                                target="_blank"                                             >
+                                                проєкт EDUSPACE
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/cooperation"
+                                                                                           >
+                                                партнери
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/pro-nas-govoryat"
+                                                                                           >
+                                                про нас говорять
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </ul>
+
+                        <!--[if ENDBLOCK]><![endif]-->
+                    </li>
+                                    <li
+                        class="relative lg:px-6 group py-0.5"
+                        @mouseenter="mouseenterHandler()"
+                        @mouseleave="mouseleaveHandler()"
+                    >
+                        <!--[if BLOCK]><![endif]-->                            <span
+                                class="text-gray-600 !leading-[1.2] block w-full cursor-pointer text-xl lg:text-base lg:text-center py-2 rounded-md transition-all lg:group-hover:bg-white lg:group-hover:text-gray-900"
+                                @click="openSubmenuHandler(40)"
+                            >
+                                інтернаціоналізація
+                            </span>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]-->                            <svg
+                                class="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 -z-10 transition-all group-hover:translate-x-full"
+                                xmlns="http://www.w3.org/2000/svg" width="19" height="23" viewBox="0 0 19 23"
+                                fill="none">
+                                <path d="M0 11.5L18.75 0.674683V22.3253L0 11.5Z" fill="#03257E"/>
+                            </svg>
+
+                            <ul
+                                class="flex flex-col lg:justify-center p-6 fixed z-10 top-0 left-full lg:-left-12 lg:-z-10 w-[312px] lg:w-[300px] h-[100svh] overflow-auto lg:rounded-r-2xl bg-gray-50 lg:bg-blue-900 lg:text-gray-100 transition-all lg:group-hover:left-[273px]"
+                                :class="{
+                                    '-translate-x-[312px] shadow-2xl': windowWidth < 1024 && openedSubmenuId === 40
+                                }"
+                            >
+                                <li
+                                    class="lg:hidden flex items-center gap-3 mb-6 font-semibold text-xl"
+                                    @click="openSubmenuHandler(null)"
+                                >
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 19L3 12M3 12L10 5M3 12L21 12" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>
+                                        інтернаціоналізація
+                                    </span>
+                                </li>
+                                <!--[if BLOCK]><![endif]-->                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/international-cooperation"
+                                                                                           >
+                                                міжнародне співробітництво
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/centr-mizhnarodnoji-osviti"
+                                                                                           >
+                                                центр міжнародної освіти
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/inozemni-studenti"
+                                                                                           >
+                                                іноземні студенти
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/partner-universities"
+                                                                                           >
+                                                академічна мобільність
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/strategichni-partnerstva"
+                                                                                           >
+                                                стратегічні партнерства
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/transform4europe"
+                                                                                           >
+                                                transform4europe
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/international-projects"
+                                                                                           >
+                                                міжнародні проєкти
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/informaciyniy-centr-yevropeyskogo-soyuzu"
+                                                                                           >
+                                                інформаційний центр ЄС
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/polskiy-kulturniy-centr"
+                                                                                           >
+                                                польський культурний центр
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </ul>
+
+                        <!--[if ENDBLOCK]><![endif]-->
+                    </li>
+                                    <li
+                        class="relative lg:px-6 group py-0.5"
+                        @mouseenter="mouseenterHandler()"
+                        @mouseleave="mouseleaveHandler()"
+                    >
+                        <!--[if BLOCK]><![endif]-->                            <span
+                                class="text-gray-600 !leading-[1.2] block w-full cursor-pointer text-xl lg:text-base lg:text-center py-2 rounded-md transition-all lg:group-hover:bg-white lg:group-hover:text-gray-900"
+                                @click="openSubmenuHandler(111)"
+                            >
+                                університет
+                            </span>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]-->                            <svg
+                                class="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 -z-10 transition-all group-hover:translate-x-full"
+                                xmlns="http://www.w3.org/2000/svg" width="19" height="23" viewBox="0 0 19 23"
+                                fill="none">
+                                <path d="M0 11.5L18.75 0.674683V22.3253L0 11.5Z" fill="#03257E"/>
+                            </svg>
+
+                            <ul
+                                class="flex flex-col lg:justify-center p-6 fixed z-10 top-0 left-full lg:-left-12 lg:-z-10 w-[312px] lg:w-[300px] h-[100svh] overflow-auto lg:rounded-r-2xl bg-gray-50 lg:bg-blue-900 lg:text-gray-100 transition-all lg:group-hover:left-[273px]"
+                                :class="{
+                                    '-translate-x-[312px] shadow-2xl': windowWidth < 1024 && openedSubmenuId === 111
+                                }"
+                            >
+                                <li
+                                    class="lg:hidden flex items-center gap-3 mb-6 font-semibold text-xl"
+                                    @click="openSubmenuHandler(null)"
+                                >
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 19L3 12M3 12L10 5M3 12L21 12" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>
+                                        університет
+                                    </span>
+                                </li>
+                                <!--[if BLOCK]><![endif]-->                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/fundraising"
+                                                                                           >
+                                                допомогти МДУ
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/history"
+                                                                                           >
+                                                історія
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/strategy"
+                                                                                           >
+                                                стратегія
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/brandbook"
+                                                                                           >
+                                                брендбук
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/vchena-rada"
+                                                                                           >
+                                                вчена рада
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/leadership"
+                                                                                           >
+                                                ректорат
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/struktura"
+                                                                                           >
+                                                структура
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/teachers"
+                                                                                           >
+                                                викладачі
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/osvitniy-proces"
+                                                                                           >
+                                                освітній процес
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/zabezpechennya-yakosti-osviti"
+                                                                                           >
+                                                забезпечення якості
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/akreditaciya"
+                                                                                           >
+                                                акредитація
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/studentska_rada"
+                                                                                           >
+                                                студентська рада
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/public-information"
+                                                                                           >
+                                                публічна інформація
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/public-discussion"
+                                                                                           >
+                                                громадське обговорення
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/antikorupcijni_zakhodi"
+                                                                                           >
+                                                антикорупційні заходи
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </ul>
+
+                        <!--[if ENDBLOCK]><![endif]-->
+                    </li>
+                                    <li
+                        class="relative lg:px-6 group py-0.5"
+                        @mouseenter="mouseenterHandler()"
+                        @mouseleave="mouseleaveHandler()"
+                    >
+                        <!--[if BLOCK]><![endif]-->                            <span
+                                class="text-gray-600 !leading-[1.2] block w-full cursor-pointer text-xl lg:text-base lg:text-center py-2 rounded-md transition-all lg:group-hover:bg-white lg:group-hover:text-gray-900"
+                                @click="openSubmenuHandler(195)"
+                            >
+                                факультети
+                            </span>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]-->                            <svg
+                                class="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 -z-10 transition-all group-hover:translate-x-full"
+                                xmlns="http://www.w3.org/2000/svg" width="19" height="23" viewBox="0 0 19 23"
+                                fill="none">
+                                <path d="M0 11.5L18.75 0.674683V22.3253L0 11.5Z" fill="#03257E"/>
+                            </svg>
+
+                            <ul
+                                class="flex flex-col lg:justify-center p-6 fixed z-10 top-0 left-full lg:-left-12 lg:-z-10 w-[312px] lg:w-[300px] h-[100svh] overflow-auto lg:rounded-r-2xl bg-gray-50 lg:bg-blue-900 lg:text-gray-100 transition-all lg:group-hover:left-[273px]"
+                                :class="{
+                                    '-translate-x-[312px] shadow-2xl': windowWidth < 1024 && openedSubmenuId === 195
+                                }"
+                            >
+                                <li
+                                    class="lg:hidden flex items-center gap-3 mb-6 font-semibold text-xl"
+                                    @click="openSubmenuHandler(null)"
+                                >
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 19L3 12M3 12L10 5M3 12L21 12" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>
+                                        факультети
+                                    </span>
+                                </li>
+                                <!--[if BLOCK]><![endif]-->                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/faculties/ekonomiko-pravoviy-fakultet"
+                                                                                           >
+                                                економіко-правовий факультет
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/faculties/istorichniy-fakultet"
+                                                                                           >
+                                                історичний факультет
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/faculties/psihologo-pedagogichniy-fakultet"
+                                                                                           >
+                                                психолого-педагогічний факультет
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/faculties/fakultet-inozemnih-mov"
+                                                                                           >
+                                                факультет іноземних мов
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/faculties/fakultet-filologiji-ta-masovih-komunikaciy"
+                                                                                           >
+                                                факультет філології та масових комунікацій
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/faculties/navchalno-naukoviy-institut-upravlinnya"
+                                                                                           >
+                                                навчально-науковий інститут управління
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </ul>
+
+                        <!--[if ENDBLOCK]><![endif]-->
+                    </li>
+                                    <li
+                        class="relative lg:px-6 group py-0.5"
+                        @mouseenter="mouseenterHandler()"
+                        @mouseleave="mouseleaveHandler()"
+                    >
+                        <!--[if BLOCK]><![endif]-->                            <span
+                                class="text-gray-600 !leading-[1.2] block w-full cursor-pointer text-xl lg:text-base lg:text-center py-2 rounded-md transition-all lg:group-hover:bg-white lg:group-hover:text-gray-900"
+                                @click="openSubmenuHandler(168)"
+                            >
+                                новини
+                            </span>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]-->                            <svg
+                                class="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 -z-10 transition-all group-hover:translate-x-full"
+                                xmlns="http://www.w3.org/2000/svg" width="19" height="23" viewBox="0 0 19 23"
+                                fill="none">
+                                <path d="M0 11.5L18.75 0.674683V22.3253L0 11.5Z" fill="#03257E"/>
+                            </svg>
+
+                            <ul
+                                class="flex flex-col lg:justify-center p-6 fixed z-10 top-0 left-full lg:-left-12 lg:-z-10 w-[312px] lg:w-[300px] h-[100svh] overflow-auto lg:rounded-r-2xl bg-gray-50 lg:bg-blue-900 lg:text-gray-100 transition-all lg:group-hover:left-[273px]"
+                                :class="{
+                                    '-translate-x-[312px] shadow-2xl': windowWidth < 1024 && openedSubmenuId === 168
+                                }"
+                            >
+                                <li
+                                    class="lg:hidden flex items-center gap-3 mb-6 font-semibold text-xl"
+                                    @click="openSubmenuHandler(null)"
+                                >
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 19L3 12M3 12L10 5M3 12L21 12" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>
+                                        новини
+                                    </span>
+                                </li>
+                                <!--[if BLOCK]><![endif]-->                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/category/vsi-novini"
+                                                                                           >
+                                                всі новини
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/category/osvitini"
+                                                                                           >
+                                                освітні
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/category/scientific"
+                                                                                           >
+                                                наукові
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/category/nihil-expedita-labore"
+                                                                                           >
+                                                міжнародні
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/category/student"
+                                                                                           >
+                                                студентські
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                                                    <li>
+                                        <!--[if BLOCK]><![endif]-->                                            <a class="block lg:px-3 py-2 rounded-md transition-all text-gray-500 lg:text-white hover:bg-white hover:text-gray-900"
+                                               href="https://mu.edu.ua/category/public"
+                                                                                           >
+                                                суспільні
+                                            </a>
+                                        <!--[if ENDBLOCK]><![endif]-->
+                                    </li>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </ul>
+
+                        <!--[if ENDBLOCK]><![endif]-->
+                    </li>
+                                    <li
+                        class="relative lg:px-6 group py-0.5"
+                        @mouseenter="mouseenterHandler()"
+                        @mouseleave="mouseleaveHandler()"
+                    >
+                        <!--[if BLOCK]><![endif]-->                            <a
+                                class="text-gray-600 !leading-[1.2] block w-full text-xl lg:text-base lg:text-center py-2 rounded-md transition-all group-hover:bg-white group-hover:text-gray-900"
+                                href="https://mu.edu.ua/contacts"
+                                                            >
+                                контакти
+                            </a>
+                        <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                    </li>
+                <!--[if ENDBLOCK]><![endif]-->
+            </ul>
+        </nav>
+
+        <div class="p-5 md:px-6 pt-4 lg:pt-0 pb-4">
+            <div
+    class="flex flex-col items-center"
+    x-data="{
+        isOpen: false,
+        state: {
+            grayscale: false,
+            fontSize: '16px'
+        },
+
+        openHandler() {
+            if (this.isOpen) {
+                this.state = {
+                    grayscale: false,
+                    fontSize: '16px'
+                }
+            } else {
+                this.state.grayscale = !this.state.grayscale
+            }
+
+            this.isOpen = !this.isOpen
+            this.applyChanges()
+        },
+
+        setFontSizeHandler(size) {
+            this.state.fontSize = size
+            this.applyChanges()
+        },
+
+        applyChanges() {
+            const html = document.querySelector('html');
+
+            if(this.state.grayscale) {
+                html.classList.add('grayscale');
+            } else {
+                html.classList.remove('grayscale');
+            }
+
+            html.style.fontSize = this.state.fontSize;
+            localStorage.setItem('MDUAccessibilityState', JSON.stringify(this.state))
+        },
+
+        init() {
+            const accessibilityState = JSON.parse(localStorage.getItem('MDUAccessibilityState'));
+
+            if (!accessibilityState) {
+                localStorage.setItem('MDUAccessibilityState', JSON.stringify(this.state))
+            } else {
+                this.state = {...accessibilityState}
+            }
+
+            this.isOpen = this.state.grayscale
+
+            this.applyChanges();
+        }
+    }"
+>
+    <button class="w-full pl-4 lg:pl-0 pb-3 flex items-center lg:justify-center gap-4" type="button" @click="openHandler">
+        <span class="w-6 h-6 flex items-center justify-center">
+            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.49976 3L7.08891 6.58916M21.4998 21L17.911 17.4112M14.3746 18.8246C13.7675 18.9398 13.1409 19 12.5002 19C8.02256 19 4.23226 16.0571 2.95801 12C3.30491 10.8955 3.83826 9.87361 4.52119 8.97118M10.3784 9.87868C10.9213 9.33579 11.6713 9 12.4998 9C14.1566 9 15.4998 10.3431 15.4998 12C15.4998 12.8284 15.164 13.5784 14.6211 14.1213M10.3784 9.87868L14.6211 14.1213M10.3784 9.87868L7.08891 6.58916M14.6211 14.1213L7.08891 6.58916M14.6211 14.1213L17.911 17.4112M7.08891 6.58916C8.64874 5.58354 10.5063 5 12.5002 5C16.9778 5 20.7681 7.94291 22.0424 12C21.3355 14.2507 19.8543 16.1585 17.911 17.4112" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </span>
+        <span class="lg:hidden text-sm font-medium">Налаштування доступності</span>
+    </button>
+    <ul class="flex gap-3 items-baseline pb-3" x-show="isOpen" x-collapse data-accessibility-sizes>
+        <li class="cursor-pointer border border-gray-500 flex justify-center w-5 h-5" @click="setFontSizeHandler('16px')">A</li>
+        <li class="cursor-pointer border border-gray-500 flex justify-center w-6 h-6 text-xl" @click="setFontSizeHandler('20px')">A</li>
+        <li class="cursor-pointer border border-gray-500 flex justify-center w-7 h-7 text-2xl" @click="setFontSizeHandler('24px')">A</li>
+    </ul>
+</div>
+            <select wire:snapshot="{&quot;data&quot;:{&quot;url&quot;:&quot;https:\/\/mu.edu.ua\/departments\/kafedra-ekonomiki-praci&quot;,&quot;locales&quot;:[{&quot;uk&quot;:&quot;\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430&quot;,&quot;en&quot;:&quot;English&quot;},{&quot;s&quot;:&quot;arr&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;vwYgB3f0oi5IOXnfgNYK&quot;,&quot;name&quot;:&quot;language-switcher&quot;,&quot;path&quot;:&quot;departments\/kafedra-ekonomiki-praci&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;uk&quot;},&quot;checksum&quot;:&quot;bb61c4439bca3936e242421f7df09e035d9b7b01b39ebddeb761c013a855befc&quot;}" wire:effects="[]" wire:id="vwYgB3f0oi5IOXnfgNYK" class="form-select rounded-md border border-gray-300 bg-white shadow-sm py-2 px-3 w-full" wire:model="url" wire:change="switch">
+    <!--[if BLOCK]><![endif]-->        <option value="https://mu.edu.ua/departments/kafedra-ekonomiki-praci">Українська</option>
+            <option value="https://mu.edu.ua/en/departments/kafedra-ekonomiki-praci">English</option>
+    <!--[if ENDBLOCK]><![endif]-->
+</select>
+        </div>
+
+
+
+
+        <div class="p-5 pb-4 border-t border-gray-200">
+                        <!--[if BLOCK]><![endif]-->                <a class="flex mx-auto items-center gap-1 text-gray-400 transition-all hover:text-gray-500" href="https://mu.edu.ua/login">
+                    <div class="w-9 h-9 flex-none">
+                        <svg class="w-full h-full" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.68156 26.7056C10.729 24.9831 14.2497 24 18 24C21.7503 24 25.271 24.9831 28.3184 26.7056M22.5 15C22.5 17.4853 20.4853 19.5 18 19.5C15.5147 19.5 13.5 17.4853 13.5 15C13.5 12.5147 15.5147 10.5 18 10.5C20.4853 10.5 22.5 12.5147 22.5 15ZM31.5 18C31.5 25.4558 25.4558 31.5 18 31.5C10.5442 31.5 4.5 25.4558 4.5 18C4.5 10.5442 10.5442 4.5 18 4.5C25.4558 4.5 31.5 10.5442 31.5 18Z" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <span>Вхід</span>
+                </a>
+            <!--[if ENDBLOCK]><![endif]-->
+        </div>
+    </div>
+
+</aside>
+    <div class="flex flex-col w-full" id="site-content" x-data="Common">
+        <main class="flex-1">
+                                        <div data-mini-banner class="hidden">
+                    <div class="px-5 py-3 bg-blue-900 text-white hidden lg:flex gap-5 justify-between items-center">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 p-2 rounded-lg bg-blue-50 flex-none">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEzIDE2SDEyVjEySDExTTEyIDhIMTIuMDFNMjEgMTJDMjEgMTYuOTcwNiAxNi45NzA2IDIxIDEyIDIxQzcuMDI5NDQgMjEgMyAxNi45NzA2IDMgMTJDMyA3LjAyOTQ0IDcuMDI5NDQgMyAxMiAzQzE2Ljk3MDYgMyAyMSA3LjAyOTQ0IDIxIDEyWiIgc3Ryb2tlPSIjMDMyNTdFIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K" alt="Icon">
+                            </div>
+                            <p class="text-sm">
+                                Будуємо новий університет разом! МДУ розпочинає фандрайзингову кампанію і відкриває збір коштів.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                                                            <a href="https://mu.edu.ua/fundraising" class="btn btn--small btn--white whitespace-nowrap">Я хочу допомогти</a>
+                            
+                            <button class="flex-none rounded-lg w-10 h-10 p-2 bg-blue-600 transition-all hover:bg-blue-700" type="button" data-hash="0JHRg9C00YPRlNC80L4g0L3QvtCy0LjQuSDRg9C90ZbQstC10YDRgdC40YLQtdGCINGA0LDQt9C+0LwhINCc0JTQoyDRgNC+0LfQv9C+0YfQuNC90LDRlCDRhNCw0L3QtNGA0LDQudC30LjQvdCz0L7QstGDINC60LDQvNC/0LDQvdGW0Y4g0ZYg0LLRltC00LrRgNC40LLQsNGUINC30LHRltGAINC60L7RiNGC0ZbQsi4=">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 18L18 6M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                            <section class="py-8 xl:py-12">
+        <div class="container-fluid">
+            <div class="flex flex-col xl:flex-row gap-5 xl:gap-8 mb-6">
+                <div class="flex flex-col flex-1">
+                    <h1 class="h1">
+                        <span class="block">Кафедра</span>
+                        економіки праці
+                    </h1>
+                </div>
+                                    <div
+                        class="xl:max-w-[390px] bg-gradient-to-b from-gray-100 to-transparent rounded-2xl px-8 py-7 flex flex-col gap-5">
+                        <span class="block text-2xl font-bold">Контакти</span>
+                        <div class="text-sm font-medium">
+                            <span>Адреса кафедри:</span>
+                            <span>вул. Преображенська, 6, Київ, 03037, України</span>
+                        </div>
+                        <a href="/cdn-cgi/l/email-protection#5e3d2e333b3b1e332b703b3a2b702b3f" class="text-gray-500 font-sm flex items-center gap-2 text-sm">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.003 5.884L10 9.882L17.997 5.884C17.9674 5.37444 17.7441 4.89549 17.3728 4.54523C17.0016 4.19497 16.5104 3.99991 16 4H4C3.48958 3.99991 2.99845 4.19497 2.62718 4.54523C2.25591 4.89549 2.0326 5.37444 2.003 5.884Z"/>
+                                <path
+                                    d="M18 8.118L10 12.118L2 8.118V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H16C16.5304 16 17.0391 15.7893 17.4142 15.4142C17.7893 15.0391 18 14.5304 18 14V8.118Z"/>
+                            </svg>
+                            <span>
+                                    <span class="__cf_email__" data-cfemail="1f7c6f727a7a5f726a317a7b6a316a7e">[email&#160;protected]</span>
+                                </span>
+                        </a>
+                        <a href="tel:+380633638519"
+                           class="text-gray-500 font-sm flex items-center gap-2 text-sm"
+                        >
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 3C2 2.44772 2.44772 2 3 2H5.15287C5.64171 2 6.0589 2.35341 6.13927 2.8356L6.87858 7.27147C6.95075 7.70451 6.73206 8.13397 6.3394 8.3303L4.79126 9.10437C5.90756 11.8783 8.12168 14.0924 10.8956 15.2087L11.6697 13.6606C11.866 13.2679 12.2955 13.0492 12.7285 13.1214L17.1644 13.8607C17.6466 13.9411 18 14.3583 18 14.8471V17C18 17.5523 17.5523 18 17 18H15C7.8203 18 2 12.1797 2 5V3Z"
+                                />
+                            </svg>
+
+                            <span>
+                                +380633638519
+                            </span>
+                        </a>
+                    </div>
+                            </div>
+
+            <div class="prose xl:prose-xl max-w-none mb-8">
+                <p style="text-align:justify">Кафедра функціонує у складі економіко-правового факультету МДУ з 1 листопада 2022 року. Метою її діяльності є забезпечення підготовки фахівців нової формації у сфері економіки, якісні характеристики яких відповідають вимогам сучасного конкурентного ринку праці.</p>
+
+<p style="text-align:justify">Кафедра економіки праці готує фахівців у сфері управління людськими ресурсами на мікро-, мезо-, макро- та міжнародному рівнях. При розробленні освітніх програм і формуванні їхніх освітніх компонент враховано досвід провідних вітчизняних та закордонних освітніх закладів щодо реалізації програм економічної освіти, а також успішних підприємств, установ і організацій щодо управління людськими ресурсами з урахуванням закономірностей функціонування ринку праці й особливостей сучасного етапу трудоресурсного забезпечення економічного розвитку.</p>
+
+<p style="text-align:justify">Навчання здійснюється із застосуванням інноваційних підходів та інтерактивних освітніх технологій на основі поєднання лекційних, семінарських (практичних) занять, самостійної роботи здобувачів вищої освіти, консультацій. Велика увага приділяється участі у тематичних конференціях, зустрічах, наукових проєктах для отримання студентами не лише нових загальних і фахових знань, а й практичних навичок міжособистісної взаємодії.</p>
+            </div>
+
+                            <div class="mb-8">
+                    <span
+                        class="text-[1.875rem] font-heading leading-[1.1] block mb-5 max-w-[520px]">Освітні програми за якими кафедра веде підготовку</span>
+
+                    <div class="flex flex-col">
+                                                    <div class="border-b border-gray-200 flex gap-5 p-5">
+                                <div class="w-1/3">
+                                    <span class="badge badge--indigo">бакалавр</span>
+                                </div>
+                                <div class="w-2/3 flex flex-col gap-2">
+                                                                                                                        <a href="https://mu.edu.ua/educational-programs/upep"
+                                               class="text-sm transition-all hover:text-blue-600">
+                                                Управління персоналом та економіка праці
+                                            </a>
+                                                                                                            </div>
+                            </div>
+                                                    <div class="border-b border-gray-200 flex gap-5 p-5">
+                                <div class="w-1/3">
+                                    <span class="badge badge--indigo">магістр</span>
+                                </div>
+                                <div class="w-2/3 flex flex-col gap-2">
+                                                                                                                        <a href="https://mu.edu.ua/educational-programs/upep-mag"
+                                               class="text-sm transition-all hover:text-blue-600">
+                                                Управління персоналом та економіка праці
+                                            </a>
+                                                                                                            </div>
+                            </div>
+                                            </div>
+                </div>
+            
+            <div class="max-w-[720px]">
+                                                                                        <div
+    x-data="{
+        isOpen: false    }"
+    x-cloak
+    class="border-b border-gray-200"
+>
+    <div
+        class="xl:text-lg font-medium cursor-pointer py-4 md:py-6 md:px-8 flex justify-between items-center gap-5 transition-all hover:bg-gray-50"
+        :class="{'bg-gray-50': isOpen}"
+        role="button"
+        @click="isOpen = !isOpen"
+    >
+        <div>навчання та викладання</div>
+        <div class="flex-none w-5 h-5 transition-all" :class="{'rotate-45': isOpen}">
+            <svg class="w-full h-full stroke-current" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 3.33301V16.6663M16.6667 9.99967L3.33337 9.99967" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+    <div
+        class="py-5 md:py-6 md:px-8"
+        x-show="isOpen"
+        x-collapse
+    >
+        <div class="prose xl:prose-xl max-w-none">
+                                    Кафедра економіки праці сприяє впровадженню найкращих практик щодо забезпечення якості вищої освіти відповідно до вимог ринку праці щодо формування компетентностей фахівців з управління персоналом та економіки праці.<br />
+<br />
+Комплексна спрямованість процесу навчання на висвітлення питань трудоресурсного забезпечення, організації праці, управління людськими ресурсами на міжнародному, макро-, мезо- та мікрорівні сприяє опануванню майбутніми фахівцями відповідних знань і навичок, формуванню у здобувачів вищої освіти здатностей аналітичного і критичного мислення як основи прийняття та реалізації оптимальних рішень у сфері управління персоналом та економіки праці.<br />
+<br />
+Навчальні дисципліни, які викладають на кафедрі, є основою для набуття студентами необхідних теоретичних і практичних знань фахового спрямування.<br />
+<br />
+Професорсько-викладацьким складом кафедри акумульовано провідні практики щодо інноваційних й інтерактивних методів навчання з метою безперервного підвищення якості освітнього процесу, у тому числі за допомогою використання мультимедійного обладнання, засобів графічної візуалізації, сучасних інформаційно-комунікаційних технологій, а також забезпечення зворотного зв’язку, актуалізації навчальних тем тощо.<br />
+<br />
+Навчальний процес забезпечено необхідною навчально-методичною літературою для проведення лекційних та семінарських занять, виконання курсових і кваліфікаційних робіт, проходження практики та ін.<br />
+<br />
+Відповідно до вимог студентоцентрованого підходу навчання за спеціальністю «Економіка», кафедра економіки праці забезпечує право здобувачів вищої освіти на можливість формування індивідуальних освітніх траєкторій в МДУ за допомогою інструментів опанування навчальних дисциплін вільного вибору студентів.
+                                </div>
+    </div>
+</div>
+                                                                                                <div
+    x-data="{
+        isOpen: false    }"
+    x-cloak
+    class="border-b border-gray-200"
+>
+    <div
+        class="xl:text-lg font-medium cursor-pointer py-4 md:py-6 md:px-8 flex justify-between items-center gap-5 transition-all hover:bg-gray-50"
+        :class="{'bg-gray-50': isOpen}"
+        role="button"
+        @click="isOpen = !isOpen"
+    >
+        <div>наукова діяльність</div>
+        <div class="flex-none w-5 h-5 transition-all" :class="{'rotate-45': isOpen}">
+            <svg class="w-full h-full stroke-current" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 3.33301V16.6663M16.6667 9.99967L3.33337 9.99967" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+    <div
+        class="py-5 md:py-6 md:px-8"
+        x-show="isOpen"
+        x-collapse
+    >
+        <div class="prose xl:prose-xl max-w-none">
+                                    До основних напрямів наукової роботи кафедри належать:<br />
+1. Розробка наукової теми 0122U201429 (2022-2025 рр.) «Світовий ринок праці в умовах глобальних трансформацій економічного розвитку».<br />
+2. Видання монографій та наукових посібників за результатами роботи наукової школи з питань міжнародного ринку праці, а також здійснення досліджень, присвячених сучасним проблемам управління людськими ресурсами.<br />
+3. Проведення щорічних конференцій і круглих столів, присвячених проблемам регулювання ринку праці, соціальної економіки та політики.<br />
+4. Підготовка аспірантів, докторантів.<br />
+<br />
+Триває безперервна співпраця з науковими установами, ЗВО та партнерами стейкхолдерами, зміст якої полягає у спільному рецензуванні та представленні статей в українських та зарубіжних наукових журналах, виданні навчально-методичних матеріалів за курсами кафедри, обміні професорсько-викладацьким складом з метою проведення короткострокових лекційних курсів, участі у роботі екзаменаційних комісій, спільній роботі наукових шкіл та ін.<br />
+<br />
+Налагоджено співробітництво з партнерами стейкхолдерами з метою забезпечення спрямованості процесу викладання на вирішення практичних завдань регулювання ринку праці, задоволення потреб економіки в людських ресурсах.<br />
+<br />
+Одним із пріоритетних напрямків роботи кафедри є розвиток студентської науки. Тематика дослідницької діяльності здобувачів вищої освіти пов’язана з актуальними проблемами функціонування соціально-економічної сфери.
+                                </div>
+    </div>
+</div>
+                                                                                                <div
+    x-data="{
+        isOpen: false    }"
+    x-cloak
+    class="border-b border-gray-200"
+>
+    <div
+        class="xl:text-lg font-medium cursor-pointer py-4 md:py-6 md:px-8 flex justify-between items-center gap-5 transition-all hover:bg-gray-50"
+        :class="{'bg-gray-50': isOpen}"
+        role="button"
+        @click="isOpen = !isOpen"
+    >
+        <div>міжнародна співпраця</div>
+        <div class="flex-none w-5 h-5 transition-all" :class="{'rotate-45': isOpen}">
+            <svg class="w-full h-full stroke-current" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 3.33301V16.6663M16.6667 9.99967L3.33337 9.99967" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+    <div
+        class="py-5 md:py-6 md:px-8"
+        x-show="isOpen"
+        x-collapse
+    >
+        <div class="prose xl:prose-xl max-w-none">
+                                    З метою проведення наукових досліджень та вирішення практичних питань щодо підготовки висококваліфікованих фахівців відповідно до потреб ринку праці, налагоджено співпрацю з іноземними партнерами:<br />
+- Факультет економіки і менеджменту Університету Міколаса Ромеріса (Литва)<br />
+- Компанія «PriceFormer Europe» (Німеччина)<br />
+- Retirement Partners (США)
+                                </div>
+    </div>
+</div>
+                                                                        </div>
+        </div>
+    </section>
+    <section class="py-8 xl:py-12">
+                    <div class="container-fluid">
+                <h2 class="text-[1.875rem] mb-6">
+                    Викладачі кафедри                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+                                            <div wire:snapshot="{&quot;data&quot;:{&quot;teacher&quot;:[null,{&quot;class&quot;:&quot;App\\Models\\Teacher&quot;,&quot;key&quot;:167,&quot;s&quot;:&quot;mdl&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;Ss1wuvwRarhWtKoOy3A4&quot;,&quot;name&quot;:&quot;teachers.teacher&quot;,&quot;path&quot;:&quot;departments\/kafedra-ekonomiki-praci&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;uk&quot;},&quot;checksum&quot;:&quot;74a8f6491278cc4ee60370bc7e3a0fa8af18e42b99d32331bea6161245d06038&quot;}" wire:effects="[]" wire:id="Ss1wuvwRarhWtKoOy3A4" class="rounded-md shadow-lg border border-gray-200 bg-white flex flex-col">
+    <div class="flex-1 flex flex-col items-center p-8">
+        <div class="w-[100px] h-[100px] rounded-full overflow-hidden mb-6">
+            <img src="https://mu.edu.ua/storage/media/9783/conversions/teacher_avatar_167-avatar.png"
+                 srcset="https://mu.edu.ua/storage/media/9783/conversions/teacher_avatar_167-avatar@2x.png 2x"
+                 alt="Світлана Калініна">
+        </div>
+        <span class="block text-center text-sm font-medium mb-1">Світлана Калініна</span>
+        <a href="/cdn-cgi/l/email-protection#51227f3a303d383f383f30113c247f3435247f2430" class="mb-3 text-gray-500 font-sm flex items-center gap-2">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.003 5.884L10 9.882L17.997 5.884C17.9674 5.37444 17.7441 4.89549 17.3728 4.54523C17.0016 4.19497 16.5104 3.99991 16 4H4C3.48958 3.99991 2.99845 4.19497 2.62718 4.54523C2.25591 4.89549 2.0326 5.37444 2.003 5.884Z"/>
+                <path d="M18 8.118L10 12.118L2 8.118V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H16C16.5304 16 17.0391 15.7893 17.4142 15.4142C17.7893 15.0391 18 14.5304 18 14V8.118Z"/>
+            </svg>
+
+            <span>
+                <span class="__cf_email__" data-cfemail="0a7924616b66636463646b4a677f246f6e7f247f6b">[email&#160;protected]</span>
+            </span>
+        </a>
+        <div class="text-gray-500 flex flex-col items-center text-center gap-3">
+            <p class="text-xs">декан економіко-правового факультету, професор кафедри економіки праці, доктор економічних наук, професор</p>
+            <span class="block text-sm">Академічні профілі</span>
+            <div class="flex gap-3">
+                <!--[if BLOCK]><![endif]-->                    <a href="https://orcid.org/0000-0002-2892-0410" class="grayscale transition-all hover:grayscale-0" title="Orchid" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/orchid.svg" alt="Orchid">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <a href="https://scholar.google.com/citations?hl=ru&amp;user=sdEGgBkAAAAJ" class="grayscale transition-all hover:grayscale-0" title="Google Academy" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/google.svg" alt="google academy">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <a href="https://www.scopus.com/authid/detail.uri?authorId=57225010431" class="grayscale transition-all hover:grayscale-0" title="Scopus" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/scopus.svg" alt="Scopus">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            </div>
+            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        </div>
+    </div>
+    <div class="border-t border-gray-200 flex">
+        <!--[if BLOCK]><![endif]-->            <a href="https://repository.mu.edu.ua/jspui/handle/123456789/3982"
+               class="py-4 px-2 text-gray-700 w-full text-center transition-all border-r border-gray-200 capitalize hover:text-blue-800"
+               target="_blank"
+            >
+                репозиторій            </a>
+        <!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]-->            <a href="https://mu.edu.ua/storage/MSU/teachers/CV/CV_Svitlana Kalinina.pdf"
+               class="py-4 px-2 text-gray-700 w-full text-center transition-all capitalize hover:text-blue-800"
+               target="_blank"
+            >
+                Професійне CV            </a>
+        <!--[if ENDBLOCK]><![endif]-->
+    </div>
+</div>
+                                            <div wire:snapshot="{&quot;data&quot;:{&quot;teacher&quot;:[null,{&quot;class&quot;:&quot;App\\Models\\Teacher&quot;,&quot;key&quot;:178,&quot;s&quot;:&quot;mdl&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;cxLCp22cHCyRuRobZtjJ&quot;,&quot;name&quot;:&quot;teachers.teacher&quot;,&quot;path&quot;:&quot;departments\/kafedra-ekonomiki-praci&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;uk&quot;},&quot;checksum&quot;:&quot;6c1b61bfb899c92b5e87c0ba8bc28e9be40eade0244f2aeeccf2a4a67d0d9051&quot;}" wire:effects="[]" wire:id="cxLCp22cHCyRuRobZtjJ" class="rounded-md shadow-lg border border-gray-200 bg-white flex flex-col">
+    <div class="flex-1 flex flex-col items-center p-8">
+        <div class="w-[100px] h-[100px] rounded-full overflow-hidden mb-6">
+            <img src="https://mu.edu.ua/storage/media/9258/conversions/teacher_avatar_178-avatar.png"
+                 srcset="https://mu.edu.ua/storage/media/9258/conversions/teacher_avatar_178-avatar@2x.png 2x"
+                 alt="Світлана Ланська">
+        </div>
+        <span class="block text-center text-sm font-medium mb-1">Світлана Ланська</span>
+        <a href="/cdn-cgi/l/email-protection#42316c2e232c312923022f376c2726376c3723" class="mb-3 text-gray-500 font-sm flex items-center gap-2">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.003 5.884L10 9.882L17.997 5.884C17.9674 5.37444 17.7441 4.89549 17.3728 4.54523C17.0016 4.19497 16.5104 3.99991 16 4H4C3.48958 3.99991 2.99845 4.19497 2.62718 4.54523C2.25591 4.89549 2.0326 5.37444 2.003 5.884Z"/>
+                <path d="M18 8.118L10 12.118L2 8.118V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H16C16.5304 16 17.0391 15.7893 17.4142 15.4142C17.7893 15.0391 18 14.5304 18 14V8.118Z"/>
+            </svg>
+
+            <span>
+                <span class="__cf_email__" data-cfemail="74075a18151a071f153419015a1110015a0115">[email&#160;protected]</span>
+            </span>
+        </a>
+        <div class="text-gray-500 flex flex-col items-center text-center gap-3">
+            <p class="text-xs">в.о. завідувача кафедри економіки праці, кандидат економічних наук, доцент</p>
+            <span class="block text-sm">Академічні профілі</span>
+            <div class="flex gap-3">
+                <!--[if BLOCK]><![endif]-->                    <a href="https://orcid.org/0000-0003-1986-8777" class="grayscale transition-all hover:grayscale-0" title="Orchid" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/orchid.svg" alt="Orchid">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <a href="https://scholar.google.com/citations?user=Sw5qi4MAAAAJ&amp;hl=uk&amp;oi=ao" class="grayscale transition-all hover:grayscale-0" title="Google Academy" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/google.svg" alt="google academy">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <a href="https://www.scopus.com/authid/detail.uri?authorId=57422509700" class="grayscale transition-all hover:grayscale-0" title="Scopus" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/scopus.svg" alt="Scopus">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <a href="https://www.webofscience.com/wos/author/record/JTS-7039-2023" class="grayscale transition-all hover:grayscale-0" title="Web of science" target="_blank"
+                       rel="nofollow">
+                        <img src="https://mu.edu.ua/images/web-of-sience.svg" alt="web of sience">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+            </div>
+            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        </div>
+    </div>
+    <div class="border-t border-gray-200 flex">
+        <!--[if BLOCK]><![endif]-->            <a href="https://repository.mu.edu.ua/jspui/handle/123456789/4167"
+               class="py-4 px-2 text-gray-700 w-full text-center transition-all border-r border-gray-200 capitalize hover:text-blue-800"
+               target="_blank"
+            >
+                репозиторій            </a>
+        <!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]-->            <a href="https://mu.edu.ua/storage/MSU/teachers/CV/Lanska.pdf"
+               class="py-4 px-2 text-gray-700 w-full text-center transition-all capitalize hover:text-blue-800"
+               target="_blank"
+            >
+                Професійне CV            </a>
+        <!--[if ENDBLOCK]><![endif]-->
+    </div>
+</div>
+                                            <div wire:snapshot="{&quot;data&quot;:{&quot;teacher&quot;:[null,{&quot;class&quot;:&quot;App\\Models\\Teacher&quot;,&quot;key&quot;:159,&quot;s&quot;:&quot;mdl&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;Eevhx3GJOVUFdq4mMuO4&quot;,&quot;name&quot;:&quot;teachers.teacher&quot;,&quot;path&quot;:&quot;departments\/kafedra-ekonomiki-praci&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;uk&quot;},&quot;checksum&quot;:&quot;bd2f397f104d351c3d18b390499e1d2b7edb5787a03bbda9d8afd4256786b80f&quot;}" wire:effects="[]" wire:id="Eevhx3GJOVUFdq4mMuO4" class="rounded-md shadow-lg border border-gray-200 bg-white flex flex-col">
+    <div class="flex-1 flex flex-col items-center p-8">
+        <div class="w-[100px] h-[100px] rounded-full overflow-hidden mb-6">
+            <img src="https://mu.edu.ua/storage/media/9256/conversions/teacher_avatar_159-avatar.png"
+                 srcset="https://mu.edu.ua/storage/media/9256/conversions/teacher_avatar_159-avatar@2x.png 2x"
+                 alt="Валерія Подунай">
+        </div>
+        <span class="block text-center text-sm font-medium mb-1">Валерія Подунай</span>
+        <a href="/cdn-cgi/l/email-protection#6f19411f000b1a010e062f021a410a0b1a411a0e" class="mb-3 text-gray-500 font-sm flex items-center gap-2">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.003 5.884L10 9.882L17.997 5.884C17.9674 5.37444 17.7441 4.89549 17.3728 4.54523C17.0016 4.19497 16.5104 3.99991 16 4H4C3.48958 3.99991 2.99845 4.19497 2.62718 4.54523C2.25591 4.89549 2.0326 5.37444 2.003 5.884Z"/>
+                <path d="M18 8.118L10 12.118L2 8.118V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H16C16.5304 16 17.0391 15.7893 17.4142 15.4142C17.7893 15.0391 18 14.5304 18 14V8.118Z"/>
+            </svg>
+
+            <span>
+                <span class="__cf_email__" data-cfemail="8bfda5fbe4effee5eae2cbe6fea5eeeffea5feea">[email&#160;protected]</span>
+            </span>
+        </a>
+        <div class="text-gray-500 flex flex-col items-center text-center gap-3">
+            <p class="text-xs">доцент кафедри економіки праці, кандидат економічних наук, доцент</p>
+            <span class="block text-sm">Академічні профілі</span>
+            <div class="flex gap-3">
+                <!--[if BLOCK]><![endif]-->                    <a href="https://orcid.org/0000-0002-6314-156X" class="grayscale transition-all hover:grayscale-0" title="Orchid" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/orchid.svg" alt="Orchid">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <a href="https://scholar.google.com.ua/citations?user=i6YLuxYAAAAJ&amp;hl=uk" class="grayscale transition-all hover:grayscale-0" title="Google Academy" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/google.svg" alt="google academy">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <a href="https://www.scopus.com/authid/detail.uri?authorId=57422357600" class="grayscale transition-all hover:grayscale-0" title="Scopus" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/scopus.svg" alt="Scopus">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <a href="https://www.webofscience.com/wos/author/record/JSK-2440-2023" class="grayscale transition-all hover:grayscale-0" title="Web of science" target="_blank"
+                       rel="nofollow">
+                        <img src="https://mu.edu.ua/images/web-of-sience.svg" alt="web of sience">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+            </div>
+            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        </div>
+    </div>
+    <div class="border-t border-gray-200 flex">
+        <!--[if BLOCK]><![endif]-->            <a href="https://repository.mu.edu.ua/jspui/handle/123456789/4170"
+               class="py-4 px-2 text-gray-700 w-full text-center transition-all border-r border-gray-200 capitalize hover:text-blue-800"
+               target="_blank"
+            >
+                репозиторій            </a>
+        <!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]-->            <a href="https://mu.edu.ua/storage/MSU/teachers/CV/Podunai.pdf"
+               class="py-4 px-2 text-gray-700 w-full text-center transition-all capitalize hover:text-blue-800"
+               target="_blank"
+            >
+                Професійне CV            </a>
+        <!--[if ENDBLOCK]><![endif]-->
+    </div>
+</div>
+                                            <div wire:snapshot="{&quot;data&quot;:{&quot;teacher&quot;:[null,{&quot;class&quot;:&quot;App\\Models\\Teacher&quot;,&quot;key&quot;:210,&quot;s&quot;:&quot;mdl&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;0ISatwsgTXx5iWtXbQRV&quot;,&quot;name&quot;:&quot;teachers.teacher&quot;,&quot;path&quot;:&quot;departments\/kafedra-ekonomiki-praci&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;uk&quot;},&quot;checksum&quot;:&quot;ff046ccc254144a34f0ab0303e5f386d69ec357be5248ec1d292c7f57ae537ab&quot;}" wire:effects="[]" wire:id="0ISatwsgTXx5iWtXbQRV" class="rounded-md shadow-lg border border-gray-200 bg-white flex flex-col">
+    <div class="flex-1 flex flex-col items-center p-8">
+        <div class="w-[100px] h-[100px] rounded-full overflow-hidden mb-6">
+            <img src="https://mu.edu.ua/storage/media/9253/conversions/teacher_avatar_210-avatar.png"
+                 srcset="https://mu.edu.ua/storage/media/9253/conversions/teacher_avatar_210-avatar@2x.png 2x"
+                 alt="Клавдія Тахтарова">
+        </div>
+        <span class="block text-center text-sm font-medium mb-1">Клавдія Тахтарова</span>
+        <a href="/cdn-cgi/l/email-protection#aac184decbc1c2decbd8c5dccbeac7df84cfcedf84dfcb" class="mb-3 text-gray-500 font-sm flex items-center gap-2">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.003 5.884L10 9.882L17.997 5.884C17.9674 5.37444 17.7441 4.89549 17.3728 4.54523C17.0016 4.19497 16.5104 3.99991 16 4H4C3.48958 3.99991 2.99845 4.19497 2.62718 4.54523C2.25591 4.89549 2.0326 5.37444 2.003 5.884Z"/>
+                <path d="M18 8.118L10 12.118L2 8.118V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H16C16.5304 16 17.0391 15.7893 17.4142 15.4142C17.7893 15.0391 18 14.5304 18 14V8.118Z"/>
+            </svg>
+
+            <span>
+                <span class="__cf_email__" data-cfemail="f992d78d9892918d988b968f98b9948cd79c9d8cd78c98">[email&#160;protected]</span>
+            </span>
+        </a>
+        <div class="text-gray-500 flex flex-col items-center text-center gap-3">
+            <p class="text-xs">доцент кафедри економіки праці, кандидат економічних наук, доцент</p>
+            <span class="block text-sm">Академічні профілі</span>
+            <div class="flex gap-3">
+                <!--[if BLOCK]><![endif]-->                    <a href="https://orcid.org/0000-0002-8670-3211" class="grayscale transition-all hover:grayscale-0" title="Orchid" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/orchid.svg" alt="Orchid">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <a href="https://scholar.google.com.ua/citations?hl=uk&amp;user=jTZFdmcAAAAJ" class="grayscale transition-all hover:grayscale-0" title="Google Academy" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/google.svg" alt="google academy">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            </div>
+            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        </div>
+    </div>
+    <div class="border-t border-gray-200 flex">
+        <!--[if BLOCK]><![endif]-->            <a href="https://repository.mu.edu.ua/jspui/handle/123456789/4172"
+               class="py-4 px-2 text-gray-700 w-full text-center transition-all border-r border-gray-200 capitalize hover:text-blue-800"
+               target="_blank"
+            >
+                репозиторій            </a>
+        <!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]-->            <a href="https://mu.edu.ua/storage/MSU/teachers/CV/Takhtarova.pdf"
+               class="py-4 px-2 text-gray-700 w-full text-center transition-all capitalize hover:text-blue-800"
+               target="_blank"
+            >
+                Професійне CV            </a>
+        <!--[if ENDBLOCK]><![endif]-->
+    </div>
+</div>
+                                            <div wire:snapshot="{&quot;data&quot;:{&quot;teacher&quot;:[null,{&quot;class&quot;:&quot;App\\Models\\Teacher&quot;,&quot;key&quot;:290,&quot;s&quot;:&quot;mdl&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;h5qFsFc2zQcW7eV8X1qV&quot;,&quot;name&quot;:&quot;teachers.teacher&quot;,&quot;path&quot;:&quot;departments\/kafedra-ekonomiki-praci&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;uk&quot;},&quot;checksum&quot;:&quot;05e324e0e1679168f68133c235f1dffdee7cdf96f81be0106a1119c7eb66e8ed&quot;}" wire:effects="[]" wire:id="h5qFsFc2zQcW7eV8X1qV" class="rounded-md shadow-lg border border-gray-200 bg-white flex flex-col">
+    <div class="flex-1 flex flex-col items-center p-8">
+        <div class="w-[100px] h-[100px] rounded-full overflow-hidden mb-6">
+            <img src="https://mu.edu.ua/storage/media/10072/conversions/teacher_avatar_-avatar.png"
+                 srcset="https://mu.edu.ua/storage/media/10072/conversions/teacher_avatar_-avatar@2x.png 2x"
+                 alt="Ольга Лелюк">
+        </div>
+        <span class="block text-center text-sm font-medium mb-1">Ольга Лелюк</span>
+        <a href="/cdn-cgi/l/email-protection#f09fde9c959c99859bb09d85de959485de8591" class="mb-3 text-gray-500 font-sm flex items-center gap-2">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.003 5.884L10 9.882L17.997 5.884C17.9674 5.37444 17.7441 4.89549 17.3728 4.54523C17.0016 4.19497 16.5104 3.99991 16 4H4C3.48958 3.99991 2.99845 4.19497 2.62718 4.54523C2.25591 4.89549 2.0326 5.37444 2.003 5.884Z"/>
+                <path d="M18 8.118L10 12.118L2 8.118V14C2 14.5304 2.21071 15.0391 2.58579 15.4142C2.96086 15.7893 3.46957 16 4 16H16C16.5304 16 17.0391 15.7893 17.4142 15.4142C17.7893 15.0391 18 14.5304 18 14V8.118Z"/>
+            </svg>
+
+            <span>
+                <span class="__cf_email__" data-cfemail="7d12531118111408163d10085318190853081c">[email&#160;protected]</span>
+            </span>
+        </a>
+        <div class="text-gray-500 flex flex-col items-center text-center gap-3">
+            <p class="text-xs">старший викладач кафедри економіки праці, кандидат економічних наук</p>
+            <span class="block text-sm">Академічні профілі</span>
+            <div class="flex gap-3">
+                <!--[if BLOCK]><![endif]-->                    <a href="https://orcid.org/0000-0002-6122-867X" class="grayscale transition-all hover:grayscale-0" title="Orchid" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/orchid.svg" alt="Orchid">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <a href="https://scholar.google.com.ua/citations?user=FT1uf7QAAAAJ&amp;hl=uk" class="grayscale transition-all hover:grayscale-0" title="Google Academy" target="_blank" rel="nofollow">
+                        <img src="https://mu.edu.ua/images/google.svg" alt="google academy">
+                    </a>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            </div>
+            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        </div>
+    </div>
+    <div class="border-t border-gray-200 flex">
+        <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        <!--[if BLOCK]><![endif]-->            <a href="https://mu.edu.ua/storage/MSU/teachers/290/cv_uk_2024-04-04_16:01:10.pdf"
+               class="py-4 px-2 text-gray-700 w-full text-center transition-all capitalize hover:text-blue-800"
+               target="_blank"
+            >
+                Професійне CV            </a>
+        <!--[if ENDBLOCK]><![endif]-->
+    </div>
+</div>
+                                    </div>
+            </div>
+            </section>
+    <section class="pt-8 xl:pt-12">
+        <div class="container-fluid">
+                            <h2 class="text-[1.875rem] mb-6">Навчальні дисципліни кафедри</h2>
+                <div class="flex flex-col gap-6">
+                    <div class="rounded-xl bg-gray-50 p-5 xl:p-7">
+                        <h3 class="text-2xl font-heading mb-5">обов'язкові дисципліни</h3>
+                        <div class="flex flex-wrap justify-center gap-3">
+                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Академічне письмо
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Візуалізація результатів наукових досліджень
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Вступ до спеціальності
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Глобалізаційні процеси в системі світового ринку праці
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Державне регулювання зайнятості
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Економіка праці та соціально-трудові відносини
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Економіка соціально-трудових відносин
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Економічна теорія праці
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Інформаційно-комунікаційні технології в системі безперервного професійного розвитку
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Кадрове діловодство та аудит персоналу
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Кар&#039;єрний менеджмент
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Корпоративна культура і комплаєнс
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Міжнародна економіка
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Міжнародні міграційні процеси
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Організація та нормування праці
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Охорона праці та трудове право
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Ринок праці
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Соціальна політика
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Статистика
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Стратегії управління персоналом
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Технології розвитку персоналу
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Бакалавр/Публічне управління/Управління персоналом.pdf" target="_blank" class="badge badge--gray">
+                                        Управління персоналом
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Фізіологія та психологія праці
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        Цифрові трансформації трудоресурсного забезпечення економіки
+                                    </a>
+                                                                                                                                <a href="https://mu.edu.ua/storage/MSU/syllabuses/Сілабус_Blank.pdf" target="_blank" class="badge badge--gray">
+                                        HR менеджмент та технології лідерства
+                                    </a>
+                                                                                    </div>
+                    </div>
+                    <div class="rounded-xl bg-gray-50 p-5 xl:p-7">
+                        <h3 class="text-2xl font-heading mb-5">вибіркові дисципліни</h3>
+                        <div class="flex flex-wrap justify-center gap-3">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>
+                    </div>
+                </div>
+                    </div>
+    </section>
+    <section class="pb-8 xl:pb-12 pt-6">
+        <div class="container-fluid">
+            <div wire:snapshot="{&quot;data&quot;:{&quot;emailTo&quot;:&quot;cpmee@mu.edu.ua&quot;,&quot;email&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;phone&quot;:&quot;&quot;,&quot;message&quot;:&quot;&quot;},&quot;memo&quot;:{&quot;id&quot;:&quot;lA82rJyKBtGlGimr9ubO&quot;,&quot;name&quot;:&quot;callback&quot;,&quot;path&quot;:&quot;departments\/kafedra-ekonomiki-praci&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;uk&quot;},&quot;checksum&quot;:&quot;d286e82898b2a20ddc42d21460d8b63d20bcd558ddaf70353b937fe7bd34d3ce&quot;}" wire:effects="[]" wire:id="lA82rJyKBtGlGimr9ubO" class="bg-gradient-to-b from-gray-100 to-transparent rounded-2xl p-5 md:p-8 xl:px-8 xl:py-11 flex flex-col xl:flex-row justify-around gap-10">
+    <div class="xl:w-1/2 xl:pt-6">
+        <div class="xl:max-w-[330px] mx-auto flex flex-col gap-6 xl:gap-10 text-center">
+            <span class="block text-[1.875rem] font-heading leading-[1.1]">Потрібна консультація або є запитання? </span>
+            <span class="block text-gray-500 text-xs">Маєте пропозиції з вдосканалення освітньої програми? Заповніть форму та ми обов'язково розглянемо її та зв'яжемось з Вами</span>
+        </div>
+    </div>
+    <div class="xl:w-1/2 flex">
+        <form wire:submit="submit" class="flex flex-col gap-4 md:gap-5 xl:max-w-[500px] w-full ml-auto">
+            <div class="flex flex-col gap-1">
+                <div class="flex flex-col md:flex-row gap-4">
+                    <label for="callback-name" class="relative top-2 w-[140px] flex-none block whitespace-nowrap text-sm font-medium">Введіть ім'я</label>
+                    <input type="text" id="callback-name" class="form-input xl:max-w-[360px]" name="name" wire:model="name">
+                </div>
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            </div>
+            <div class="flex flex-col gap-1">
+                <div class="flex flex-col md:flex-row gap-4">
+                    <label for="callback-phone" class="relative top-2 w-[140px] flex-none block whitespace-nowrap text-sm font-medium">Номер телефону</label>
+                    <input type="tel" id="callback-phone" class="form-input xl:max-w-[360px]" name="name" wire:model="phone">
+                </div>
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            </div>
+            <div class="flex flex-col gap-1">
+                <div class="flex flex-col md:flex-row gap-4">
+                    <label for="callback-message" class="relative top-2 w-[140px] flex-none block whitespace-nowrap text-sm font-medium">Текст повідомлення</label>
+                    <textarea name="message" id="callback-message" class="min-h-[100px] form-input xl:max-w-[360px]" wire:model="message"></textarea>
+                </div>
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+            </div>
+            <div class="w-full pl-[156px]">
+                <button class="btn btn--small btn--blue w-full max-w-[256px]" wire:loading.attr="disabled" type="submit">Надіслати</button>
+            </div>
+            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        </form>
+    </div>
+</div>
+        </div>
+    </section>
+        </main>
+        <footer wire:snapshot="{&quot;data&quot;:[],&quot;memo&quot;:{&quot;id&quot;:&quot;NKB29kFCRhvZr6nFnoBK&quot;,&quot;name&quot;:&quot;footer&quot;,&quot;path&quot;:&quot;departments\/kafedra-ekonomiki-praci&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;uk&quot;},&quot;checksum&quot;:&quot;51f7aadaae1c6e9c585f77ecfb1fd9e23a65b1cec9ec17e4fc172a46b0ed3314&quot;}" wire:effects="[]" wire:id="NKB29kFCRhvZr6nFnoBK" id="footer" class="py-10 md:py-16 bg-gray-800 text-gray-400">
+    <div class="container-fluid flex flex-col gap-8 md:gap-11">
+        <div class="flex flex-col md:flex-row gap-8 md:gap-11 pb-8 border-b border-gray-600">
+            <!--[if BLOCK]><![endif]-->                <div class="w-full md:w-1/3 flex flex-col gap-4">
+                    <span class="text-sm uppercase block font-semibold text-gray-500">Контакти</span>
+                    <div class="text-gray-400">
+                        <!--[if BLOCK]><![endif]-->                            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                            <!--[if BLOCK]><![endif]-->                                <a class="block" href="/cdn-cgi/l/email-protection#3d54535b527d50481358594813485c"><span class="__cf_email__" data-cfemail="234a4d454c634e560d4647560d5642">[email&#160;protected]</span></a>
+                            <!--[if ENDBLOCK]><![endif]-->
+                                                    <!--[if BLOCK]><![endif]-->                                <span class="block">03037, Київ, вул. Преображенська, 6</span>
+                            <!--[if ENDBLOCK]><![endif]-->
+                            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                        <!--[if ENDBLOCK]><![endif]-->
+                    </div>
+                </div>
+            <!--[if ENDBLOCK]><![endif]-->
+            <!--[if BLOCK]><![endif]-->                <div class="w-full md:w-1/3 flex flex-col gap-4">
+                    <span class="text-sm uppercase block font-semibold text-gray-500">Приймальна комісія</span>
+                    <div class="text-gray-400">
+                        <!--[if BLOCK]><![endif]-->                            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                            <!--[if BLOCK]><![endif]-->                                <a class="block" href="tel:+38 (096) 743-74-43 ">+38 (096) 743-74-43 </a>
+                            <!--[if ENDBLOCK]><![endif]-->
+                            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                                                    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+                            <!--[if BLOCK]><![endif]-->                                <a class="block" href="/cdn-cgi/l/email-protection#24414a564b484849414a506449510a4140510a5145"><span class="__cf_email__" data-cfemail="badfd4c8d5d6d6d7dfd4cefad7cf94dfdecf94cfdb">[email&#160;protected]</span></a>
+                            <!--[if ENDBLOCK]><![endif]-->
+                        <!--[if ENDBLOCK]><![endif]-->
+                    </div>
+                </div>
+            <!--[if ENDBLOCK]><![endif]-->
+            <div class="w-full md:w-1/3 flex flex-col gap-4">
+                <span class="text-sm uppercase block font-semibold text-gray-500">Пресслужба</span>
+                <div class="text-gray-400">
+                    <a href="/cdn-cgi/l/email-protection#cabab8afb9b98aa7bfe4afaebfe4bfab"><span class="__cf_email__" data-cfemail="a7d7d5c2d4d4e7cad289c2c3d289d2c6">[email&#160;protected]</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row gap-11 pb-8 border-b border-gray-600">
+            <!--[if BLOCK]><![endif]-->                <div class="w-full md:w-1/3 flex flex-col gap-4">
+                    <span class="text-sm uppercase block font-semibold text-gray-500">Структура університету</span>
+                    <ul class="flex flex-col gap-4">
+                        <!--[if BLOCK]><![endif]-->                            <li>
+                                <!--[if BLOCK]><![endif]-->                                    <a
+                                        class="text-gray-300 transition-all hover:text-gray-400"
+                                        href="https://mu.edu.ua/leadership"
+                                                                            >
+                                        Ректорат
+                                    </a>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </li>
+                                                    <li>
+                                <!--[if BLOCK]><![endif]-->                                    <a
+                                        class="text-gray-300 transition-all hover:text-gray-400"
+                                        href="https://mu.edu.ua/vstup-2024"
+                                                                            >
+                                        Приймальна комісія
+                                    </a>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </li>
+                                                    <li>
+                                <!--[if BLOCK]><![endif]-->                                    <a
+                                        class="text-gray-300 transition-all hover:text-gray-400"
+                                        href="https://mu.edu.ua/faculties/ekonomiko-pravoviy-fakultet"
+                                                                            >
+                                        Економіко-правовий факультет
+                                    </a>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </li>
+                                                    <li>
+                                <!--[if BLOCK]><![endif]-->                                    <a
+                                        class="text-gray-300 transition-all hover:text-gray-400"
+                                        href="https://mu.edu.ua/faculties/istorichniy-fakultet"
+                                                                            >
+                                        Історичний факультет
+                                    </a>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </li>
+                                                    <li>
+                                <!--[if BLOCK]><![endif]-->                                    <a
+                                        class="text-gray-300 transition-all hover:text-gray-400"
+                                        href="https://mu.edu.ua/faculties/fakultet-filologiji-ta-masovih-komunikaciy"
+                                                                            >
+                                        Факультет філології та масових комунікацій
+                                    </a>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </li>
+                                                    <li>
+                                <!--[if BLOCK]><![endif]-->                                    <a
+                                        class="text-gray-300 transition-all hover:text-gray-400"
+                                        href="https://mu.edu.ua/faculties/fakultet-inozemnih-mov"
+                                                                            >
+                                        Факультет іноземних мов
+                                    </a>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </li>
+                                                    <li>
+                                <!--[if BLOCK]><![endif]-->                                    <a
+                                        class="text-gray-300 transition-all hover:text-gray-400"
+                                        href="https://mu.edu.ua/faculties/psihologo-pedagogichniy-fakultet"
+                                                                            >
+                                        Психолого-педагогічний факультет
+                                    </a>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </li>
+                                                    <li>
+                                <!--[if BLOCK]><![endif]-->                                    <a
+                                        class="text-gray-300 transition-all hover:text-gray-400"
+                                        href="https://mu.edu.ua/faculties/navchalno-naukoviy-institut-upravlinnya"
+                                                                            >
+                                        Навчально-науковий інститут управління
+                                    </a>
+                                <!--[if ENDBLOCK]><![endif]-->
+                            </li>
+                        <!--[if ENDBLOCK]><![endif]-->
+                    </ul>
+                </div>
+            <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <div class="w-full md:w-1/3 flex flex-col gap-4">
+                        <span class="text-sm uppercase block font-semibold text-gray-500">Електронне середовище</span>
+                        <ul class="flex flex-col gap-4">
+                            <!--[if BLOCK]><![endif]-->                                <li>
+                                    <!--[if BLOCK]><![endif]-->                                        <a
+                                            class="text-gray-300 transition-all hover:text-gray-400"
+                                            href="https://moodle.mu.edu.ua/"
+                                             target="_blank"                                         >
+                                            Навчальний портал
+                                        </a>
+                                    <!--[if ENDBLOCK]><![endif]-->
+                                </li>
+                                                            <li>
+                                    <!--[if BLOCK]><![endif]-->                                        <a
+                                            class="text-gray-300 transition-all hover:text-gray-400"
+                                            href="https://repository.mu.edu.ua/"
+                                             target="_blank"                                         >
+                                            Електронний репозитарій
+                                        </a>
+                                    <!--[if ENDBLOCK]><![endif]-->
+                                </li>
+                                                            <li>
+                                    <!--[if BLOCK]><![endif]-->                                        <a
+                                            class="text-gray-300 transition-all hover:text-gray-400"
+                                            href="https://outlook.office.com/"
+                                             target="_blank"                                         >
+                                            Корпоративна пошта
+                                        </a>
+                                    <!--[if ENDBLOCK]><![endif]-->
+                                </li>
+                                                            <li>
+                                    <!--[if BLOCK]><![endif]-->                                        <a
+                                            class="text-gray-300 transition-all hover:text-gray-400"
+                                            href="https://e-library.mu.edu.ua/"
+                                             target="_blank"                                         >
+                                            Електронний каталог
+                                        </a>
+                                    <!--[if ENDBLOCK]><![endif]-->
+                                </li>
+                            <!--[if ENDBLOCK]><![endif]-->
+                        </ul>
+                    </div>
+                <!--[if ENDBLOCK]><![endif]-->
+                <!--[if BLOCK]><![endif]-->                    <div class="w-full md:w-1/3 flex flex-col gap-4">
+                        <span class="text-sm uppercase block font-semibold text-gray-500">Наші посилання</span>
+                        <ul class="flex flex-col gap-4">
+                            <!--[if BLOCK]><![endif]-->                                <li>
+                                    <!--[if BLOCK]><![endif]-->                                        <a
+                                            class="text-gray-300 transition-all hover:text-gray-400"
+                                            href="https://mon.gov.ua/ua"
+                                             target="_blank"                                         >
+                                            Міністерство освіти і науки України
+                                        </a>
+                                    <!--[if ENDBLOCK]><![endif]-->
+                                </li>
+                                                            <li>
+                                    <!--[if BLOCK]><![endif]-->                                        <a
+                                            class="text-gray-300 transition-all hover:text-gray-400"
+                                            href="https://www.kmu.gov.ua/uryadova-garyacha-liniya-1545"
+                                             target="_blank"                                         >
+                                            Урядова «Гаряча лінія»
+                                        </a>
+                                    <!--[if ENDBLOCK]><![endif]-->
+                                </li>
+                                                            <li>
+                                    <!--[if BLOCK]><![endif]-->                                        <a
+                                            class="text-gray-300 transition-all hover:text-gray-400"
+                                            href="https://ips.vdz.ua/"
+                                             target="_blank"                                         >
+                                            Державні закупівлі: офіційний веб-портал
+                                        </a>
+                                    <!--[if ENDBLOCK]><![endif]-->
+                                </li>
+                                                            <li>
+                                    <!--[if BLOCK]><![endif]-->                                        <a
+                                            class="text-gray-300 transition-all hover:text-gray-400"
+                                            href="https://naps.gov.ua/"
+                                             target="_blank"                                         >
+                                            Національна академія педагогічних наук України
+                                        </a>
+                                    <!--[if ENDBLOCK]><![endif]-->
+                                </li>
+                                                            <li>
+                                    <!--[if BLOCK]><![endif]-->                                        <a
+                                            class="text-gray-300 transition-all hover:text-gray-400"
+                                            href="https://zvo.knu.ua/"
+                                             target="_blank"                                         >
+                                            Спілка ректорів ЗВО України
+                                        </a>
+                                    <!--[if ENDBLOCK]><![endif]-->
+                                </li>
+                                                            <li>
+                                    <!--[if BLOCK]><![endif]-->                                        <a
+                                            class="text-gray-300 transition-all hover:text-gray-400"
+                                            href="http://www.nbuv.gov.ua/"
+                                             target="_blank"                                         >
+                                            Бібліотека імені В. І. Вернадського
+                                        </a>
+                                    <!--[if ENDBLOCK]><![endif]-->
+                                </li>
+                            <!--[if ENDBLOCK]><![endif]-->
+                        </ul>
+                    </div>
+                <!--[if ENDBLOCK]><![endif]-->
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-11">
+            <ul class="flex flex-col gap-6 w-full md:w-2/3">
+                <li class="flex items-start gap-4 md:gap-6 text-sm md:text-base">
+                    <svg class="flex-none" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 5C12.4157 4.99793 9.931 5.99642 8.06672 7.78613C6.20244 9.57583 5.10341 12.0178 5.00004 14.6L3.71004 13.29L2.29004 14.71L6.00004 18.41L9.71004 14.7L8.29004 13.29L7.00004 14.57C7.08408 13.0088 7.62372 11.5065 8.55228 10.2487C9.48084 8.99082 10.7576 8.03265 12.2248 7.49254C13.692 6.95244 15.2853 6.85408 16.8078 7.20962C18.3302 7.56516 19.7152 8.35903 20.7914 9.49309C21.8676 10.6272 22.5879 12.0517 22.8634 13.5907C23.1388 15.1297 22.9572 16.7157 22.3411 18.1526C21.725 19.5895 20.7013 20.8144 19.3967 21.6759C18.092 22.5374 16.5635 22.9977 15 23V25C17.6522 25 20.1957 23.9464 22.0711 22.0711C23.9465 20.1957 25 17.6522 25 15C25 12.3478 23.9465 9.8043 22.0711 7.92894C20.1957 6.05357 17.6522 5 15 5Z" fill="#9CA3AF"/>
+                        <path d="M14 10H16V15C16 15.2652 15.8946 15.5196 15.7071 15.7071C15.5196 15.8946 15.2652 16 15 16C14.7348 16 14.4804 15.8946 14.2929 15.7071C14.1054 15.5196 14 15.2652 14 15V10Z" fill="#9CA3AF"/>
+                        <path d="M14.0103 15C14.0103 14.7348 14.1156 14.4804 14.3031 14.2929C14.4907 14.1054 14.745 14 15.0103 14H18.0103V16H15.0103C14.745 16 14.4907 15.8946 14.3031 15.7071C14.1156 15.5196 14.0103 15.2652 14.0103 15Z" fill="#9CA3AF"/>
+                    </svg>
+                    <div><a class="link" href="http://old.mu.edu.ua" rel="nofollow" target="_blank">Стара версія сайту Маріупольського державного університету</a></div>
+                </li>
+                <li class="flex items-start gap-4 md:gap-6 text-sm md:text-base">
+                    <svg class="flex-none" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M27 3H3V27H27V3ZM5.15909 11.9224H7.51336C7.95929 11.9224 8.34863 11.9992 8.66765 12.1688C8.97824 12.3321 9.21904 12.5581 9.37837 12.8486C9.53317 13.1289 9.60901 13.4382 9.60901 13.7711C9.60901 14.0573 9.55836 14.3151 9.4408 14.5307C9.33264 14.7326 9.186 14.8977 9.00037 15.02L8.99445 15.0239C9.02053 15.0386 9.04646 15.0541 9.07224 15.0704C9.29777 15.2128 9.48044 15.4136 9.6231 15.6632C9.77493 15.9289 9.84413 16.2426 9.84413 16.5925C9.84413 16.9337 9.76614 17.2483 9.60568 17.5303C9.43892 17.8233 9.17987 18.0464 8.8465 18.2054C8.50547 18.368 8.07989 18.4413 7.5839 18.4413H5.15909V11.9224ZM10.5417 11.9224H14.6742V13.0689H11.7706V14.6027H14.4862V15.7492H11.7706V17.2947H14.7213V18.4413H10.5417V11.9224ZM15.1588 11.9224H20.173V13.0689H18.2803V18.4413H17.0515V13.0689H15.1588V11.9224ZM21.863 11.9224H22.9644L25.3581 18.4413H24.0593L23.4542 16.7367H21.3732L20.7681 18.4413H19.4693L21.863 11.9224ZM6.38794 13.0689V14.5674H7.48985C7.67577 14.5674 7.83542 14.5311 7.97371 14.4635L7.97469 14.463C8.11483 14.3953 8.22059 14.3029 8.29831 14.1856L8.2995 14.1838C8.37416 14.0732 8.41542 13.9391 8.41542 13.7711C8.41542 13.5718 8.34887 13.4114 8.21239 13.2749L8.21145 13.274C8.09396 13.1552 7.88084 13.0689 7.51336 13.0689H6.38794ZM22.4137 13.8057L21.7803 15.5901H23.0472L22.4137 13.8057ZM6.38794 15.7022V17.2947H7.5839C8.04028 17.2947 8.29874 17.2041 8.42833 17.0847C8.58103 16.9439 8.65054 16.7843 8.65054 16.5925C8.65054 16.4336 8.6107 16.2902 8.53062 16.1572L8.52997 16.1562C8.45095 16.0235 8.33752 15.9149 8.18207 15.8308L8.18034 15.8299C8.03194 15.7481 7.84783 15.7022 7.61916 15.7022H6.38794Z" fill="#9CA3AF"/>
+                    </svg>
+                    <div class="copyrights" >Сайт працює в тестовому режимі. Якщо ви маєте зауваження або пропозиції, будь ласка, напишіть нам: <a href="/cdn-cgi/l/email-protection#afdfddcadcdcefc2da81cacbda81dace"><span class="__cf_email__" data-cfemail="39494b5c4a4a79544c175c5d4c174c58">[email&#160;protected]</span></a></div>
+                </li>
+                <li class="flex items-start gap-4 md:gap-6 text-sm md:text-base">
+                    <svg class="flex-none" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 3C12.6266 3 10.3066 3.70379 8.33316 5.02236C6.35977 6.34094 4.8217 8.21509 3.91345 10.4078C3.0052 12.6005 2.76756 15.0133 3.23058 17.3411C3.6936 19.6689 4.83649 21.8071 6.51472 23.4853C8.19295 25.1635 10.3312 26.3064 12.6589 26.7694C14.9867 27.2324 17.3995 26.9948 19.5922 26.0866C21.7849 25.1783 23.6591 23.6402 24.9776 21.6668C26.2962 19.6935 27 17.3734 27 15C27 11.8174 25.7357 8.76515 23.4853 6.51472C21.2348 4.26428 18.1826 3 15 3ZM15 25C13.0222 25 11.0888 24.4135 9.4443 23.3147C7.79981 22.2159 6.51809 20.6541 5.76121 18.8268C5.00433 16.9996 4.8063 14.9889 5.19215 13.0491C5.578 11.1093 6.53041 9.32746 7.92894 7.92893C9.32746 6.53041 11.1093 5.578 13.0491 5.19215C14.9889 4.8063 16.9996 5.00433 18.8268 5.7612C20.6541 6.51808 22.2159 7.79981 23.3147 9.4443C24.4135 11.0888 25 13.0222 25 15C25 17.6522 23.9464 20.1957 22.0711 22.0711C20.1957 23.9464 17.6522 25 15 25Z" fill="#9CA3AF"/>
+                        <path d="M11.5899 17C11.2604 17.0014 10.9356 16.9213 10.6445 16.767C10.3534 16.6126 10.1049 16.3887 9.92121 16.1152C9.73748 15.8416 9.62419 15.5269 9.59139 15.1991C9.5586 14.8712 9.60732 14.5403 9.73323 14.2358C9.85914 13.9313 10.0583 13.6626 10.3131 13.4536C10.5679 13.2447 10.8703 13.1019 11.1936 13.038C11.5168 12.9741 11.8509 12.991 12.166 13.0873C12.4811 13.1836 12.7676 13.3563 12.9999 13.59L14.4099 12.18C13.8503 11.621 13.1375 11.2405 12.3617 11.0865C11.5859 10.9325 10.7819 11.012 10.0512 11.3149C9.3206 11.6178 8.69615 12.1305 8.25682 12.7882C7.81749 13.4459 7.58301 14.2191 7.58301 15.01C7.58301 15.8009 7.81749 16.5741 8.25682 17.2318C8.69615 17.8895 9.3206 18.4022 10.0512 18.7051C10.7819 19.008 11.5859 19.0874 12.3617 18.9335C13.1375 18.7795 13.8503 18.399 14.4099 17.84L12.9999 16.41C12.6265 16.7856 12.1194 16.9978 11.5899 17Z" fill="#9CA3AF"/>
+                        <path d="M19.5899 17C19.2604 17.0014 18.9356 16.9213 18.6445 16.767C18.3534 16.6126 18.1049 16.3887 17.9212 16.1152C17.7375 15.8416 17.6242 15.5269 17.5914 15.1991C17.5586 14.8712 17.6073 14.5403 17.7332 14.2358C17.8591 13.9313 18.0583 13.6626 18.3131 13.4536C18.5679 13.2447 18.8703 13.1019 19.1936 13.038C19.5168 12.9741 19.8509 12.991 20.166 13.0873C20.4811 13.1836 20.7676 13.3563 20.9999 13.59L22.4099 12.18C21.8503 11.621 21.1375 11.2405 20.3617 11.0865C19.5859 10.9325 18.7819 11.012 18.0512 11.3149C17.3206 11.6178 16.6961 12.1305 16.2568 12.7882C15.8175 13.4459 15.583 14.2191 15.583 15.01C15.583 15.8009 15.8175 16.5741 16.2568 17.2318C16.6961 17.8895 17.3206 18.4022 18.0512 18.7051C18.7819 19.008 19.5859 19.0874 20.3617 18.9335C21.1375 18.7795 21.8503 18.399 22.4099 17.84L20.9999 16.41C20.6265 16.7856 20.1194 16.9978 19.5899 17Z" fill="#9CA3AF"/>
+                    </svg>
+                    <div>2024 Маріупольський державний університет. Весь контент сайту доступно за ліцензією: Creative Commons «Attribution» 4.0 Всесвітня, якщо не зазначено інше.</div>
+                </li>
+            </ul>
+            <div class="w-full md:w-1/3 flex justify-center md:justify-end">
+                <div class="flex justify-center gap-3">
+    <a href="https://www.facebook.com/mdu.mariupol/"
+        target="_blank"
+       rel="nofollow"
+       class="w-6 h-6 flex items-center justify-center text-gray-400 transition-all hover:text-blue-900"
+    >
+        <svg
+            class="w-full h-full fill-current" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.5 12C22.5 6.477 18.023 2 12.5 2C6.977 2 2.5 6.477 2.5 12C2.5 16.991 6.157 21.128 10.938 21.878V14.891H8.398V12H10.938V9.797C10.938 7.291 12.43 5.907 14.715 5.907C15.809 5.907 16.953 6.102 16.953 6.102V8.562H15.693C14.45 8.562 14.063 9.333 14.063 10.124V12H16.836L16.393 14.89H14.063V21.878C18.843 21.128 22.5 16.991 22.5 12Z"/>
+        </svg>
+    </a>
+    <a href="https://www.instagram.com/mdu.mariupol/"
+       target="_blank"
+       rel="nofollow"
+       class="w-6 h-6 flex items-center justify-center text-gray-400 transition-all hover:text-blue-900"
+    >
+        <svg class="w-full h-full fill-current" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.33171 2C5.11587 2 2.5 4.61829 2.5 7.83496V16.1683C2.5 19.3841 5.11829 22 8.33496 22H16.6683C19.8841 22 22.5 19.3817 22.5 16.165V7.83171C22.5 4.61587 19.8817 2 16.665 2H8.33171ZM18.3333 5.33333C18.7933 5.33333 19.1667 5.70667 19.1667 6.16667C19.1667 6.62667 18.7933 7 18.3333 7C17.8733 7 17.5 6.62667 17.5 6.16667C17.5 5.70667 17.8733 5.33333 18.3333 5.33333ZM12.5 7C15.2575 7 17.5 9.2425 17.5 12C17.5 14.7575 15.2575 17 12.5 17C9.7425 17 7.5 14.7575 7.5 12C7.5 9.2425 9.7425 7 12.5 7ZM12.5 8.66667C11.6159 8.66667 10.7681 9.01786 10.143 9.64298C9.51786 10.2681 9.16667 11.1159 9.16667 12C9.16667 12.8841 9.51786 13.7319 10.143 14.357C10.7681 14.9821 11.6159 15.3333 12.5 15.3333C13.3841 15.3333 14.2319 14.9821 14.857 14.357C15.4821 13.7319 15.8333 12.8841 15.8333 12C15.8333 11.1159 15.4821 10.2681 14.857 9.64298C14.2319 9.01786 13.3841 8.66667 12.5 8.66667Z"/>
+        </svg>
+    </a>
+    <a href="https://t.me/mdu_mariupol"
+       target="_blank"
+       rel="nofollow"
+       class="w-6 h-6 flex items-center justify-center text-gray-400 transition-all hover:text-blue-900"
+    >
+        <svg class="w-full h-full fill-current" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 22C18.0225 22 22.5 17.5225 22.5 12C22.5 6.4775 18.0225 2 12.5 2C6.9775 2 2.5 6.4775 2.5 12C2.5 17.5225 6.9775 22 12.5 22ZM15.9791 7.50282C14.8765 7.935 9.57691 10.0123 5.44332 11.7286C4.36906 12.1748 4.10651 12.639 5.21281 12.9973C5.23916 13.0059 5.26929 13.0157 5.30289 13.0266C5.63551 13.1349 6.30707 13.3535 6.99338 13.5395C7.99306 13.8106 8.55022 13.6401 9.13018 13.2684C9.51415 13.0224 12.5305 11.1323 14.7061 9.77053C14.9502 9.61754 15.2158 9.93108 15.0044 10.1219C13.3902 11.575 11.3188 13.4424 11.0026 13.7344C10.1492 14.5225 10.7696 14.9379 11.2749 15.2762C11.2955 15.29 11.3159 15.3037 11.336 15.3172C11.8987 15.6971 14.4904 17.3149 15.0038 17.6348C16.0712 18.2997 16.7504 18.1176 17.0531 16.5807C17.4077 14.7795 17.825 12.2189 18.1209 10.4024C18.2508 9.60542 18.3573 8.95165 18.425 8.56811C18.7338 6.8183 18.1144 6.66705 16.0959 7.45703C16.0647 7.46926 16.0256 7.48457 15.9791 7.50282Z"/>
+        </svg>
+    </a>
+    <a href="https://www.youtube.com/channel/UCjbxRPbZFaaNSTDL_zTUyyA"
+       target="_blank"
+       rel="nofollow"
+       class="w-6 h-6 flex items-center justify-center text-gray-400 transition-all hover:text-blue-900"
+    >
+        <svg class="w-full h-full fill-current" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_2097_3594)">
+                <path d="M13.5 2C9.958 2 5.36073 2.9534 5.36073 2.9534L5.34916 2.9676C3.73595 3.24477 2.5 4.73396 2.5 6.54505V11.9991V12.0009V17.4532V17.4549C2.50157 18.3199 2.79012 19.1559 3.31383 19.8129C3.83754 20.4699 4.5621 20.9048 5.35742 21.0395L5.36073 21.0448C5.36073 21.0448 9.958 22 13.5 22C17.042 22 21.6393 21.0448 21.6393 21.0448L21.6409 21.0431C22.4371 20.9086 23.1625 20.4734 23.6866 19.8156C24.2107 19.1579 24.4991 18.3208 24.5 17.4549V17.4532V12.0009V11.9991V6.54505C24.4988 5.67979 24.2104 4.84334 23.6867 4.186C23.163 3.52865 22.4382 3.0935 21.6426 2.95872L21.6393 2.9534C21.6393 2.9534 17.042 2 13.5 2ZM10.9615 7.81625L17.7308 11.9991L10.9615 16.182V7.81625Z"/>
+            </g>
+            <defs>
+                <clipPath id="clip0_2097_3594">
+                    <rect width="24" height="24" fill="white" transform="translate(0.5)"/>
+                </clipPath>
+            </defs>
+        </svg>
+    </a>
+    <a href="https://www.tiktok.com/@mrpl.uni"
+       target="_blank"
+       rel="nofollow"
+       class="w-6 h-6 flex items-center justify-center text-gray-400 transition-all hover:text-blue-900"
+    >
+        <svg class="w-full h-full fill-current" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C17.7992 2 22.5 6.7008 22.5 12.5C22.5 18.2992 17.7992 23 12 23C6.2008 23 1.5 18.2992 1.5 12.5C1.5 6.7008 6.2008 2 12 2ZM14.3584 6.34807C14.3588 6.53592 14.4142 9.2532 17.2652 9.4226C17.2652 10.206 17.266 10.7741 17.266 11.5218C17.0503 11.5341 15.3891 11.4135 14.3551 10.4915L14.3518 14.5783C14.3912 17.4149 12.3039 19.1408 9.57516 18.5445C4.87025 17.1372 6.43377 10.1592 11.1579 10.9057C11.1579 13.1587 11.1592 10.9053 11.1592 13.1587C9.20766 12.8716 8.55469 14.495 9.07353 15.6578C9.54521 16.716 11.4885 16.9453 12.1665 15.4523C12.2432 15.1603 12.2814 14.8268 12.2814 14.4528V6.33781L14.3584 6.34807Z"/>
+        </svg>
+    </a>
+    <a href="https://www.linkedin.com/school/mrpl-university/mycompany/?viewAsMember=true"
+       target="_blank"
+       rel="nofollow"
+       class="w-6 h-6 flex items-center justify-center text-gray-400 transition-all hover:text-blue-900"
+    >
+        <svg class="w-full h-full fill-current" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 2C18.023 2 22.5 6.47695 22.5 12C22.5 17.523 18.023 22 12.5 22C6.97695 22 2.5 17.523 2.5 12C2.5 6.47695 6.97695 2 12.5 2ZM8.04531 16.641H9.96055V10.4531H8.04531V16.641ZM8.99375 9.64297C9.61953 9.64297 10.1266 9.13125 10.1266 8.50078C10.1266 7.87031 9.61953 7.35898 8.99375 7.35898C8.36797 7.35898 7.86133 7.87031 7.86133 8.50078C7.86133 9.13125 8.36797 9.64297 8.99375 9.64297ZM13.0223 13.393C13.0223 12.523 13.423 12.0043 14.1898 12.0043C14.8938 12.0043 15.2324 12.502 15.2324 13.393C15.2324 14.284 15.2324 16.641 15.2324 16.641H17.1387C17.1387 16.641 17.1387 14.3805 17.1387 12.723C17.1387 11.0656 16.1992 10.2641 14.8871 10.2641C13.5746 10.2641 13.0223 11.2867 13.0223 11.2867V10.4531H11.1852V16.641H13.0223C13.0223 16.641 13.0223 14.3461 13.0223 13.393Z"/>
+        </svg>
+    </a>
+</div>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-navigate-once="true">window.livewireScriptConfig = {"csrf":"sGRtaY9NJQxAl9rjFWLwcD5Eho2QfeaRiSWAsEO8","uri":"\/livewire\/update","progressBar":"","nonce":""};</script>
+</body>
+</html>
